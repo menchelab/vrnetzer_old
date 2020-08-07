@@ -11,27 +11,21 @@ IMPORTANT: DO NOT put passwords in this file.
 
 asimov = {  "host":     "asimov.westeurope.cloudapp.azure.com",
             'user':     'readonly',
-            'password': 'ra4Roh7ohdee',
+            'password': '***',
             'database': 'Datadivr_jen',
 }
 
 asimov_admin = {
             "host":     "asimov.westeurope.cloudapp.azure.com",
             'user':     'dd_admin',
-            'password': 'Cq9H89EJS+%xD_kp',
+            'password': '***',
             'database': 'Datadivr_jen',
 }
 
 menche = {  "host":     "menchelabdb.int.cemm.at",
             'user':     'readonly',
-            'password': 'ra4Roh7ohdee',
+            'password': '***',
             'database': 'Datadivr_tmp',
-}
-
-jen = {     "host":     "localhost",
-            'user':     'jen',
-            'password': '',
-            'database': 'Datadivr_meta',
 }
 
 
