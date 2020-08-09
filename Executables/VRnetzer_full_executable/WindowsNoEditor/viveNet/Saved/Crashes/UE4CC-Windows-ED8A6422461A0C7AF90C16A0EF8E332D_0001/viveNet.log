@@ -1,0 +1,953 @@
+﻿Log file open, 07/11/20 11:26:40
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogPakFile: Display: Found Pak file ../../../viveNet/Content/Paks/viveNet-WindowsNoEditor.pak attempting to mount.
+LogPakFile: Display: Mounting pak file ../../../viveNet/Content/Paks/viveNet-WindowsNoEditor.pak.
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 47 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.549631
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogPluginManager: Mounting plugin VRNetPlugin
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin OnlineSubsystemSteam
+LogPluginManager: Mounting plugin VaRestPlugin
+LogPluginManager: Mounting plugin WebUI
+LogPluginManager: Mounting plugin WebBrowserWidget
+LogPluginManager: Mounting plugin JsonLibrary
+LogPluginManager: Mounting plugin HttpLibrary
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin ScreenshotTools
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: Display: STEAM: Loading Steam SDK 1.42
+LogOnline: OSS: Creating online subsystem instance for: Steam
+LogOnline: Warning: STEAM: Steamworks: SteamUtils() failed!
+LogOnline: Warning: STEAM: Steamworks: SteamUser() failed!
+LogOnline: Warning: STEAM: Steamworks: SteamFriends() failed!
+LogOnline: Warning: STEAM: Steamworks: SteamRemoteStorage() failed!
+LogOnline: Warning: STEAM: Steamworks: SteamUserStats() failed!
+LogOnline: Warning: STEAM: Steamworks: SteamMatchmakingServers() failed!
+LogOnline: Warning: STEAM: Steamworks: SteamApps() failed!
+LogOnline: Warning: STEAM: Steamworks: SteamNetworking() failed!
+LogOnline: Warning: STEAM: Steamworks: SteamMatchmaking() failed!
+LogOnline: STEAM: [AppId: 0] Client API initialized 0
+LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
+LogOnline: Warning: STEAM: Steam API failed to initialize!
+LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
+LogOnline: OSS: Unable to create OnlineSubsystem module Steam
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.23-CL-9631420
+LogInit: Engine Version: 4.23.1-9631420+++UE4+Release-4.23
+LogInit: Compatible Engine Version: 4.23.0-8386587+++UE4+Release-4.23
+LogInit: Net CL: 8386587
+LogInit: OS: Windows 10 (Release 1809) (), CPU: Intel(R) Xeon(R) CPU E5-1660 v3 @ 3.00GHz, GPU: NVIDIA TITAN X (Pascal)
+LogInit: Compiled (64-bit): Oct 18 2019 02:43:36
+LogInit: Compiled with Visual C++: 19.16.27030.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.23
+LogInit: Command Line: 
+LogInit: Base Directory: E:/vrNetBuild/desktop_TEST/vr_new/WindowsNoEditor/viveNet/Binaries/Win64/
+LogInit: Installed Engine Build: 0
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 34
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 31
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 27
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 9
+LogInit: Presizing for max 2097152 objects, including 1 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogStreaming: Display: Async Loading initialized: Event Driven Loader: true, Async Loading Thread: false, Async Post Load: true
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.07.11-09.26.40:585][  0]LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+[2020.07.11-09.26.40:585][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.07.11-09.26.40:585][  0]LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.07.11-09.26.40:585][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [../../../viveNet/Saved/Config/WindowsNoEditor/Engine.ini]
+[2020.07.11-09.26.40:585][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.07.11-09.26.40:585][  0]LogConfig: Setting CVar [[r.AllowOcclusionQueries:0]]
+[2020.07.11-09.26.40:585][  0]LogConfig: Setting CVar [[r.ForwardShading:1]]
+[2020.07.11-09.26.40:585][  0]LogConfig: Setting CVar [[r.DBuffer:0]]
+[2020.07.11-09.26.40:585][  0]LogConfig: Setting CVar [[r.CustomDepth:0]]
+[2020.07.11-09.26.40:585][  0]LogConfig: Setting CVar [[r.CustomDepthTemporalAAJitter:0]]
+[2020.07.11-09.26.40:585][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusion:0]]
+[2020.07.11-09.26.40:585][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusionStaticFraction:0]]
+[2020.07.11-09.26.40:585][  0]LogConfig: Setting CVar [[r.DefaultFeature.MotionBlur:0]]
+[2020.07.11-09.26.40:585][  0]LogConfig: Setting CVar [[r.DefaultFeature.AntiAliasing:1]]
+[2020.07.11-09.26.40:585][  0]LogConfig: Setting CVar [[r.EarlyZPass:3]]
+[2020.07.11-09.26.40:585][  0]LogConfig: Setting CVar [[r.AllowGlobalClipPlane:0]]
+[2020.07.11-09.26.40:585][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:0]]
+[2020.07.11-09.26.40:585][  0]LogConfig: Setting CVar [[vr.InstancedStereo:0]]
+[2020.07.11-09.26.40:585][  0]LogConfig: Setting CVar [[r.MorphTarget.Mode:0]]
+[2020.07.11-09.26.40:585][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [../../../viveNet/Saved/Config/WindowsNoEditor/Engine.ini]
+[2020.07.11-09.26.40:585][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [../../../viveNet/Saved/Config/WindowsNoEditor/Engine.ini]
+[2020.07.11-09.26.40:585][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.07.11-09.26.40:585][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.07.11-09.26.40:585][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.07.11-09.26.40:585][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.07.11-09.26.40:585][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.07.11-09.26.40:585][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.07.11-09.26.40:585][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.07.11-09.26.40:585][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.07.11-09.26.40:585][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.07.11-09.26.40:585][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.07.11-09.26.40:585][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.07.11-09.26.40:585][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.07.11-09.26.40:585][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.07.11-09.26.40:585][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [../../../viveNet/Saved/Config/WindowsNoEditor/Engine.ini]
+[2020.07.11-09.26.40:585][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.07.11-09.26.40:585][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.07.11-09.26.40:585][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.07.11-09.26.40:585][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.07.11-09.26.40:585][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.07.11-09.26.40:585][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.07.11-09.26.40:585][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2020.07.11-09.26.40:585][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.07.11-09.26.40:585][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.07.11-09.26.40:585][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.07.11-09.26.40:585][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.07.11-09.26.40:585][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.07.11-09.26.40:585][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.07.11-09.26.40:586][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [../../../viveNet/Saved/Config/WindowsNoEditor/Engine.ini]
+[2020.07.11-09.26.40:606][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [../../../viveNet/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2020.07.11-09.26.40:606][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.07.11-09.26.40:606][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.07.11-09.26.40:607][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [../../../viveNet/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2020.07.11-09.26.40:607][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.07.11-09.26.40:607][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [../../../viveNet/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2020.07.11-09.26.40:607][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.07.11-09.26.40:607][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.07.11-09.26.40:607][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.07.11-09.26.40:607][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.07.11-09.26.40:607][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.07.11-09.26.40:607][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.07.11-09.26.40:607][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.07.11-09.26.40:607][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.07.11-09.26.40:607][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.07.11-09.26.40:607][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.07.11-09.26.40:607][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.07.11-09.26.40:607][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.07.11-09.26.40:607][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.07.11-09.26.40:607][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.07.11-09.26.40:607][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.07.11-09.26.40:607][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.07.11-09.26.40:607][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.07.11-09.26.40:607][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.07.11-09.26.40:607][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [../../../viveNet/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2020.07.11-09.26.40:607][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.07.11-09.26.40:607][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.07.11-09.26.40:607][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.07.11-09.26.40:607][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.07.11-09.26.40:607][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.07.11-09.26.40:607][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.07.11-09.26.40:607][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.07.11-09.26.40:607][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.07.11-09.26.40:607][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.07.11-09.26.40:607][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.07.11-09.26.40:607][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.07.11-09.26.40:607][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.07.11-09.26.40:607][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.07.11-09.26.40:607][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.07.11-09.26.40:607][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.07.11-09.26.40:607][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.07.11-09.26.40:607][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.07.11-09.26.40:607][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.07.11-09.26.40:607][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.07.11-09.26.40:607][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.07.11-09.26.40:607][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.07.11-09.26.40:607][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.07.11-09.26.40:607][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.07.11-09.26.40:607][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.07.11-09.26.40:607][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.07.11-09.26.40:607][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.07.11-09.26.40:607][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.07.11-09.26.40:607][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.07.11-09.26.40:607][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.07.11-09.26.40:607][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.07.11-09.26.40:607][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [../../../viveNet/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2020.07.11-09.26.40:607][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.07.11-09.26.40:607][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.07.11-09.26.40:607][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.07.11-09.26.40:607][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.07.11-09.26.40:607][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.07.11-09.26.40:607][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.07.11-09.26.40:607][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.07.11-09.26.40:607][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.07.11-09.26.40:607][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [../../../viveNet/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2020.07.11-09.26.40:608][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.07.11-09.26.40:608][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.07.11-09.26.40:608][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.07.11-09.26.40:608][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.07.11-09.26.40:608][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.07.11-09.26.40:608][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.07.11-09.26.40:608][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.07.11-09.26.40:608][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.07.11-09.26.40:608][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.07.11-09.26.40:608][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.07.11-09.26.40:608][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.07.11-09.26.40:608][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.07.11-09.26.40:608][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.07.11-09.26.40:608][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [../../../viveNet/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2020.07.11-09.26.40:608][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.07.11-09.26.40:608][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.07.11-09.26.40:608][  0]LogInit: Selected Device Profile: [WindowsNoEditor]
+[2020.07.11-09.26.40:608][  0]LogInit: Applying CVar settings loaded from the selected device profile: [WindowsNoEditor]
+[2020.07.11-09.26.40:613][  0]LogHAL: Display: Platform has ~ 32 GB [34278248448 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.07.11-09.26.40:613][  0]LogInit: Going up to parent DeviceProfile [Windows]
+[2020.07.11-09.26.40:613][  0]LogInit: Going up to parent DeviceProfile []
+[2020.07.11-09.26.40:613][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [../../../viveNet/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2020.07.11-09.26.40:613][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.07.11-09.26.40:613][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.07.11-09.26.40:613][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [../../../viveNet/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2020.07.11-09.26.40:613][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.07.11-09.26.40:613][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [../../../viveNet/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2020.07.11-09.26.40:613][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.07.11-09.26.40:613][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.07.11-09.26.40:613][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.07.11-09.26.40:613][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.07.11-09.26.40:613][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.07.11-09.26.40:613][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.07.11-09.26.40:613][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.07.11-09.26.40:613][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.07.11-09.26.40:613][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.07.11-09.26.40:613][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.07.11-09.26.40:613][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.07.11-09.26.40:613][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.07.11-09.26.40:613][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.07.11-09.26.40:613][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.07.11-09.26.40:613][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.07.11-09.26.40:613][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.07.11-09.26.40:613][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.07.11-09.26.40:613][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.07.11-09.26.40:614][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [../../../viveNet/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2020.07.11-09.26.40:614][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.07.11-09.26.40:614][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.07.11-09.26.40:614][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.07.11-09.26.40:614][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.07.11-09.26.40:614][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.07.11-09.26.40:614][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.07.11-09.26.40:614][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.07.11-09.26.40:614][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.07.11-09.26.40:614][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.07.11-09.26.40:614][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.07.11-09.26.40:614][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.07.11-09.26.40:614][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.07.11-09.26.40:614][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.07.11-09.26.40:614][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.07.11-09.26.40:614][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.07.11-09.26.40:614][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.07.11-09.26.40:614][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.07.11-09.26.40:614][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.07.11-09.26.40:614][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.07.11-09.26.40:614][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.07.11-09.26.40:614][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.07.11-09.26.40:614][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.07.11-09.26.40:614][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.07.11-09.26.40:614][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.07.11-09.26.40:614][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.07.11-09.26.40:614][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.07.11-09.26.40:614][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.07.11-09.26.40:614][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.07.11-09.26.40:614][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.07.11-09.26.40:614][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.07.11-09.26.40:614][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [../../../viveNet/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2020.07.11-09.26.40:614][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.07.11-09.26.40:614][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.07.11-09.26.40:614][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.07.11-09.26.40:614][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.07.11-09.26.40:614][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.07.11-09.26.40:614][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.07.11-09.26.40:614][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.07.11-09.26.40:614][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.07.11-09.26.40:614][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [../../../viveNet/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2020.07.11-09.26.40:614][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.07.11-09.26.40:614][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.07.11-09.26.40:614][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.07.11-09.26.40:614][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.07.11-09.26.40:614][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.07.11-09.26.40:614][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.07.11-09.26.40:614][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.07.11-09.26.40:614][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.07.11-09.26.40:614][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.07.11-09.26.40:614][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.07.11-09.26.40:614][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.07.11-09.26.40:614][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.07.11-09.26.40:614][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.07.11-09.26.40:614][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [../../../viveNet/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2020.07.11-09.26.40:614][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.07.11-09.26.40:614][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.07.11-09.26.40:614][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.07.11-09.26.40:615][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.07.11-09.26.40:615][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.07.11-09.26.40:615][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [../../../viveNet/Saved/Config/WindowsNoEditor/Engine.ini]
+[2020.07.11-09.26.40:615][  0]LogInit: Computer: CEMMWKS5185
+[2020.07.11-09.26.40:615][  0]LogInit: User: spirch
+[2020.07.11-09.26.40:615][  0]LogInit: CPU Page size=4096, Cores=8
+[2020.07.11-09.26.40:615][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.07.11-09.26.40:615][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2020.07.11-09.26.40:615][  0]LogMemory: Platform Memory Stats for WindowsNoEditor
+[2020.07.11-09.26.40:615][  0]LogMemory: Process Physical Memory: 59.88 MB used, 59.88 MB peak
+[2020.07.11-09.26.40:615][  0]LogMemory: Process Virtual Memory: 72.31 MB used, 72.31 MB peak
+[2020.07.11-09.26.40:615][  0]LogMemory: Physical Memory: 10013.36 MB used,  22676.93 MB free, 32690.29 MB total
+[2020.07.11-09.26.40:615][  0]LogMemory: Virtual Memory: 4489.76 MB used,  134213240.00 MB free, 134217728.00 MB total
+[2020.07.11-09.26.40:619][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.07.11-09.26.40:657][  0]LogInit: Using OS detected language (en-US).
+[2020.07.11-09.26.40:657][  0]LogInit: Using OS detected locale (de-AT).
+[2020.07.11-09.26.40:658][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.07.11-09.26.40:658][  0]LogTextLocalizationManager: No localization for 'de-AT' exists, so 'en' will be used for the locale.
+[2020.07.11-09.26.40:713][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.07.11-09.26.40:713][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.07.11-09.26.40:958][  0]LogD3D11RHI: D3D11 adapters:
+[2020.07.11-09.26.41:094][  0]LogD3D11RHI:    0. 'NVIDIA TITAN X (Pascal)' (Feature Level 11_0)
+[2020.07.11-09.26.41:095][  0]LogD3D11RHI:       12147/0/16345 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:3, VendorId:0x10de
+[2020.07.11-09.26.41:098][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.07.11-09.26.41:098][  0]LogD3D11RHI:       0/0/16345 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.07.11-09.26.41:099][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.07.11-09.26.41:107][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.07.11-09.26.41:107][  0]LogD3D11RHI:     GPU DeviceId: 0x1b00 (for the marketing name, search the web for "GPU Device Id")
+[2020.07.11-09.26.41:107][  0]LogWindows: EnumDisplayDevices:
+[2020.07.11-09.26.41:107][  0]LogWindows:    0. 'NVIDIA TITAN X (Pascal)' (P:1 D:1)
+[2020.07.11-09.26.41:107][  0]LogWindows:    1. 'NVIDIA TITAN X (Pascal)' (P:0 D:1)
+[2020.07.11-09.26.41:108][  0]LogWindows:    2. 'NVIDIA TITAN X (Pascal)' (P:0 D:1)
+[2020.07.11-09.26.41:109][  0]LogWindows:    3. 'NVIDIA TITAN X (Pascal)' (P:0 D:0)
+[2020.07.11-09.26.41:109][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2020.07.11-09.26.41:109][  0]LogD3D11RHI:     Adapter Name: NVIDIA TITAN X (Pascal)
+[2020.07.11-09.26.41:109][  0]LogD3D11RHI:   Driver Version: 436.15 (internal:26.21.14.3615, unified:436.15)
+[2020.07.11-09.26.41:109][  0]LogD3D11RHI:      Driver Date: 8-24-2019
+[2020.07.11-09.26.41:109][  0]LogRHI: Texture pool is 8502 MB (70% of 12147 MB)
+[2020.07.11-09.26.41:209][  0]LogD3D11RHI: Async texture creation enabled
+[2020.07.11-09.26.41:256][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.07.11-09.26.41:414][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.07.11-09.26.41:441][  0]LogSlate: Using FreeType 2.6.0
+[2020.07.11-09.26.41:442][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.07.11-09.26.41:524][  0]LogInit: Using OS detected language (en-US).
+[2020.07.11-09.26.41:524][  0]LogInit: Using OS detected locale (de-AT).
+[2020.07.11-09.26.41:524][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the language.
+[2020.07.11-09.26.41:524][  0]LogTextLocalizationManager: No localization for 'de-AT' exists, so 'en' will be used for the locale.
+[2020.07.11-09.26.41:525][  0]LogTextLocalizationManager: Compacting localization data took   0.36ms
+[2020.07.11-09.26.41:530][  0]LogAssetRegistry: FAssetRegistry took 0.0045 seconds to start up
+[2020.07.11-09.26.41:640][  0]LogStreaming: Display: Flushing async loaders.
+[2020.07.11-09.26.41:640][  0]LogPackageLocalizationCache: Processed 13 localized package path(s) for 1 prioritized culture(s) in 0.000084 seconds
+[2020.07.11-09.26.41:641][  0]LogPakFile: New pak file ../../../viveNet/Content/Paks/viveNet-WindowsNoEditor.pak added to pak precacher.
+[2020.07.11-09.26.41:645][  0]LogInit: Selected Device Profile: [WindowsNoEditor]
+[2020.07.11-09.26.41:659][  0]LogNetVersion: viveNet 1.0.0, NetCL: 8386587, EngineNetVer: 11, GameNetVer: 0 (Checksum: 2011979321)
+[2020.07.11-09.26.42:618][  0]LogMoviePlayer: Initializing movie player
+[2020.07.11-09.26.43:026][  0]LogTemp: Warning: VRNetPlugin loaded!
+[2020.07.11-09.26.43:027][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.07.11-09.26.43:027][  0]LogOcInput: OculusInput pre-init called
+[2020.07.11-09.26.43:033][  0]LogUObjectArray: 42094 objects as part of root set at end of initial load.
+[2020.07.11-09.26.43:033][  0]LogUObjectArray: 2 objects are not in the root set, but can never be destroyed because they are in the DisregardForGC set.
+[2020.07.11-09.26.43:033][  0]LogUObjectAllocator: 6380560 out of 0 bytes used by permanent object pool.
+[2020.07.11-09.26.43:033][  0]LogUObjectArray: CloseDisregardForGC: 42094/42094 objects in disregard for GC pool
+[2020.07.11-09.26.43:113][  0]LogEngine: Initializing Engine...
+[2020.07.11-09.26.43:114][  0]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-B595268E
+[2020.07.11-09.26.43:125][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.07.11-09.26.43:224][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.07.11-09.26.43:231][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.07.11-09.26.43:348][  0]LogInit: XAudio2 using 'HTC-VIVE (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.07.11-09.26.43:422][  0]LogInit: FAudioDevice initialized.
+[2020.07.11-09.26.43:431][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.07.11-09.26.43:431][  0]LogInit: Texture streaming: Enabled
+[2020.07.11-09.26.43:448][  0]LogConsoleManager: Warning: Setting the console variable 'r.VSync' with 'SetByGameSetting' was ignored as it is lower priority than the previous 'SetByCode'. Value remains '0'
+[2020.07.11-09.26.44:751][  0]LogInit: Error: Failed to load cursor '../../../viveNet/Content/None'
+[2020.07.11-09.26.44:751][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.11-09.26.44:752][  0]LogInit: Display: Game Engine Initialized.
+[2020.07.11-09.26.44:753][  0]LogInit: Display: Starting Game.
+[2020.07.11-09.26.44:753][  0]LogNet: Browse: /Game/netVR?Name=Player
+[2020.07.11-09.26.44:753][  0]LogLoad: LoadMap: /Game/netVR?Name=Player
+[2020.07.11-09.26.44:753][  0]LogWorld: BeginTearingDown for /Temp/Untitled_0
+[2020.07.11-09.26.44:785][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.07.11-09.26.44:955][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.57ms
+[2020.07.11-09.26.44:967][  0]LogAIModule: Creating AISystem for world netVR
+[2020.07.11-09.26.44:968][  0]LogLoad: Game class is 'ViveGameMode_C'
+[2020.07.11-09.26.44:970][  0]LogWorld: Bringing World /Game/netVR.netVR up for play (max tick rate 0) at 2020.07.11-11.26.44
+[2020.07.11-09.26.44:977][  0]LogStreaming: Warning: Failed to open ANSI TEXT file ../../../viveNet/Content//data/
+[2020.07.11-09.26.44:977][  0]LogStreaming: Warning: Failed to open ANSI TEXT file ../../../viveNet/Content//data/
+[2020.07.11-09.26.44:978][  0]LogWorld: Bringing up level for play took: 0.009087
+[2020.07.11-09.26.44:978][  0]LogVRNetGameModeBase: SERVER [55168] - InitNewPlayer() ... Options: ?Name=CEMMWKS5185-8340A8BD42FCFBB8FE74E69212112915  / Portal: 
+[2020.07.11-09.26.44:984][  0]LogBlueprintUserMessages: [VivePawn_C_2147482535] OnRep widgetInteractionID: VivePawn_C_2147482535 - set widgetInteractionComp (right) ID to: 257
+[2020.07.11-09.26.44:985][  0]LogBlueprintUserMessages: [VivePawn_C_2147482535] OnRep widgetInteraction1ID: VivePawn_C_2147482535 - set widgetInteractionComp1 (left) ID to: 273
+[2020.07.11-09.26.44:985][  0]LogVRNetBasePawn: SERVER [55228] - ClientPossessed() ...
+[2020.07.11-09.26.44:986][  0]LogBlueprintUserMessages: [VivePawn_C_2147482535] Activated ViveTracker!
+[2020.07.11-09.26.44:986][  0]LogVRNetBasePawn: SERVER [55228] - ClientUnPossessed() ...
+[2020.07.11-09.26.44:990][  0]LogBlueprintUserMessages: [VivePawn_C_2147482531] OnRep widgetInteractionID: VivePawn_C_2147482531 - set widgetInteractionComp (right) ID to: 257
+[2020.07.11-09.26.44:990][  0]LogBlueprintUserMessages: [VivePawn_C_2147482531] OnRep widgetInteraction1ID: VivePawn_C_2147482531 - set widgetInteractionComp1 (left) ID to: 273
+[2020.07.11-09.26.44:990][  0]LogVRNetBasePawn: SERVER [55294] - ClientPossessed() ...
+[2020.07.11-09.26.44:990][  0]LogBlueprintUserMessages: [VivePawn_C_2147482531] Activated ViveTracker!
+[2020.07.11-09.26.44:990][  0]LogVRNetGameModeBase: SERVER [55168] - PostLogin() ... NewPlayerCtrlName: BP_VivePlayerController_C_2147482553 / connected players num: 1
+[2020.07.11-09.26.44:990][  0]LogUMG: Display: Widget Class ExpandableKeyboard_C - Loaded Fast Template.
+[2020.07.11-09.26.44:991][  0]LogEngine: Onscreen warnings/messages are now DISABLED
+[2020.07.11-09.26.44:991][  0]Warning: Stereo On is deprecated. Use vr.bEnableStereo True instead
+[2020.07.11-09.26.44:991][  0]LogEngine: Onscreen warnings/messages are now DISABLED
+[2020.07.11-09.26.44:991][  0]r.SetRes = "1680x1050f"
+[2020.07.11-09.26.44:991][  0]Command not recognized: r.screenPercentage=100
+[2020.07.11-09.26.44:991][  0]Command not recognized: HMD mirror 1680x1050
+[2020.07.11-09.26.44:992][  0]LogVRNetMotionCtrlComp: Verbose: SERVER [55298] - BeginPlay()
+[2020.07.11-09.26.44:992][  0]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2020.07.11-09.26.44:997][  0]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.006 s
+[2020.07.11-09.26.44:997][  0]LogOutputDevice: Error: === Handled ensure: ===
+[2020.07.11-09.26.44:997][  0]LogOutputDevice: Error: 
+[2020.07.11-09.26.44:997][  0]LogOutputDevice: Error: Ensure condition failed: Component->HasBegunPlay() [File:D:/Build/++UE4/Sync/Engine/Source/Runtime/Engine/Private/Actor.cpp] [Line: 3366]
+[2020.07.11-09.26.44:997][  0]LogOutputDevice: Error: Failed to route BeginPlay (VRNetMotionControllerComponent /Game/netVR.netVR:PersistentLevel.VivePawn_C_2147482531.LeftController)
+[2020.07.11-09.26.44:997][  0]LogOutputDevice: Error: Stack: 
+[2020.07.11-09.26.44:997][  0]LogOutputDevice: Error: [Callstack] 0x00007ff71c98097a viveNet.exe!UnknownFunction []
+[2020.07.11-09.26.44:997][  0]LogOutputDevice: Error: [Callstack] 0x00007ff71aa1b3f5 viveNet.exe!UnknownFunction []
+[2020.07.11-09.26.44:997][  0]LogOutputDevice: Error: [Callstack] 0x00007ff717fdcc2d viveNet.exe!UnknownFunction []
+[2020.07.11-09.26.44:997][  0]LogOutputDevice: Error: [Callstack] 0x00007ff71aa230e7 viveNet.exe!UnknownFunction []
+[2020.07.11-09.26.44:997][  0]LogOutputDevice: Error: [Callstack] 0x00007ff71b82362a viveNet.exe!UnknownFunction []
+[2020.07.11-09.26.44:998][  0]LogOutputDevice: Error: [Callstack] 0x00007ff71af0d1f1 viveNet.exe!UnknownFunction []
+[2020.07.11-09.26.44:998][  0]LogOutputDevice: Error: [Callstack] 0x00007ff71b7e58ee viveNet.exe!UnknownFunction []
+[2020.07.11-09.26.44:998][  0]LogOutputDevice: Error: [Callstack] 0x00007ff71b728de1 viveNet.exe!UnknownFunction []
+[2020.07.11-09.26.44:998][  0]LogOutputDevice: Error: [Callstack] 0x00007ff71b6ed41d viveNet.exe!UnknownFunction []
+[2020.07.11-09.26.44:998][  0]LogOutputDevice: Error: [Callstack] 0x00007ff71aed7b9e viveNet.exe!UnknownFunction []
+[2020.07.11-09.26.44:998][  0]LogOutputDevice: Error: [Callstack] 0x00007ff71aed7712 viveNet.exe!UnknownFunction []
+[2020.07.11-09.26.44:998][  0]LogOutputDevice: Error: [Callstack] 0x00007ff717fa64f1 viveNet.exe!UnknownFunction []
+[2020.07.11-09.26.44:998][  0]LogOutputDevice: Error: [Callstack] 0x00007ff717fbc2de viveNet.exe!UnknownFunction []
+[2020.07.11-09.26.44:998][  0]LogOutputDevice: Error: [Callstack] 0x00007ff717fbc50a viveNet.exe!UnknownFunction []
+[2020.07.11-09.26.44:998][  0]LogOutputDevice: Error: [Callstack] 0x00007ff717fcd300 viveNet.exe!UnknownFunction []
+[2020.07.11-09.26.44:998][  0]LogOutputDevice: Error: [Callstack] 0x00007ff71c65c702 viveNet.exe!UnknownFunction []
+[2020.07.11-09.26.44:998][  0]LogOutputDevice: Error: [Callstack] 0x00007ffdbd2c7974 KERNEL32.DLL!UnknownFunction []
+[2020.07.11-09.26.44:998][  0]LogOutputDevice: Error: [Callstack] 0x00007ffdbffca271 ntdll.dll!UnknownFunction []
+[2020.07.11-09.26.44:998][  0]LogOutputDevice: Error: 
+[2020.07.11-09.26.45:001][  0]LogStats:                SubmitErrorReport -  0.000 s
+[2020.07.11-09.26.45:680][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2020.07.11-09.26.45:680][  0]LogWindows: Warning: URL: ../../../Engine/Binaries/Win64/CrashReportClient.exe "E:/vrNetBuild/desktop_TEST/vr_new/WindowsNoEditor/viveNet/Saved/Crashes/UE4CC-Windows-ED8A6422461A0C7AF90C16A0EF8E332D_0000" -Unattended -AppName=UE4-viveNet -CrashGUID=UE4CC-Windows-ED8A6422461A0C7AF90C16A0EF8E332D_0000 -DebugSymbols=..\..\..\Engine\Intermediate\Symbols
+[2020.07.11-09.26.45:680][  0]LogStats:                    SendNewReport -  0.679 s
+[2020.07.11-09.26.45:680][  0]LogStats:             FDebug::EnsureFailed -  0.688 s
+[2020.07.11-09.26.45:680][  0]LogVRNetMotionCtrlComp: Verbose: SERVER [55300] - BeginPlay()
+[2020.07.11-09.26.45:680][  0]LogVRNetReplComp: SERVER [55301] - BeginPlay() ... this: RightControllerReplicationComp - owner: VivePawn_C_2147482531 - (owner of owner: NOOWNER) - is activated: true
+[2020.07.11-09.26.45:680][  0]LogVRNetReplComp: SERVER [55299] - BeginPlay() ... this: LeftControllerReplicationComp - owner: VivePawn_C_2147482531 - (owner of owner: NOOWNER) - is activated: true
+[2020.07.11-09.26.45:680][  0]LogVRNetReplComp: SERVER [55297] - BeginPlay() ... this: CameraReplicationComponent - owner: VivePawn_C_2147482531 - (owner of owner: NOOWNER) - is activated: true
+[2020.07.11-09.26.45:680][  0]LogBlueprintUserMessages: [TextureInteractionComponent] TextureInteractionComponent initalized
+[2020.07.11-09.26.45:680][  0]LogBlueprintUserMessages: [TextureInteractionComponent] Owner pawn set (TextureInteractionComponent)
+[2020.07.11-09.26.45:680][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets_3' of length 0 in '/Game/Blueprints/TextureInteractionComponent.TextureInteractionComponent_C:ExecuteUbergraph_TextureInteractionComponent'!
+[2020.07.11-09.26.45:681][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets_2' of length 0 in '/Game/Blueprints/TextureInteractionComponent.TextureInteractionComponent_C:ExecuteUbergraph_TextureInteractionComponent'!
+[2020.07.11-09.26.45:681][  0]LogBlueprintUserMessages: [UIInteractionComponent] Owner pawn set
+[2020.07.11-09.26.45:681][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/Blueprints/UIInteractionComponent.UIInteractionComponent_C:ExecuteUbergraph_UIInteractionComponent'!
+[2020.07.11-09.26.45:681][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets_1' of length 0 in '/Game/Blueprints/UIInteractionComponent.UIInteractionComponent_C:ExecuteUbergraph_UIInteractionComponent'!
+[2020.07.11-09.26.45:681][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets_3' of length 0 in '/Game/Blueprints/UIInteractionComponent.UIInteractionComponent_C:ExecuteUbergraph_UIInteractionComponent'!
+[2020.07.11-09.26.45:681][  0]LogVRNetReplComp: SERVER [55334] - BeginPlay() ... this: ViveTrackerReplication - owner: VivePawn_C_2147482531 - (owner of owner: NOOWNER) - is activated: true
+[2020.07.11-09.26.45:682][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/Blueprints/experimental/dragAbleActor.dragAbleActor_C:UserConstructionScript'!
+[2020.07.11-09.26.45:682][  0]LogUMG: Display: Widget Class Switcher1_C - Loaded Fast Template.
+[2020.07.11-09.26.45:684][  0]LogUMG: Display: Widget Class WebInterface_C - Loaded Fast Template.
+[2020.07.11-09.26.45:684][  0]LogBlueprintUserMessages: [RightHandWidgetActor_C_2147482528] false
+[2020.07.11-09.26.45:685][  0]LogUMG: Display: Widget Class nodePanel_C - Loaded Fast Template.
+[2020.07.11-09.26.45:686][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/Blueprints/experimental/dragAbleActor.dragAbleActor_C:UserConstructionScript'!
+[2020.07.11-09.26.45:686][  0]LogUMG: Display: Widget Class WebPanel1_C - Loaded Fast Template.
+[2020.07.11-09.26.45:686][  0]LogVRNetBasePawn: SERVER [55294] - LOCAL pawn begin play: VivePawn_C_2147482531 .. ROLE on client: ROLE_Authority / REMOTE ROLE: ROLE_SimulatedProxy  
+[2020.07.11-09.26.45:686][  0]LogBlueprintUserMessages: [MyStaticMeshNodeActor2_Blueprint] MaterialInstanceDynamic_1
+[2020.07.11-09.26.45:686][  0]LogLoad: Took 0.933303 seconds to LoadMap(/Game/netVR)
+[2020.07.11-09.26.47:369][  0]LogRenderer: Reallocating scene render targets to support 2160x1200 Format 10 NumSamples 1 (Frame:1).
+[2020.07.11-09.26.49:414][  0]LogLoad: (Engine Initialization) Total time: 10.00 seconds
+[2020.07.11-09.26.51:319][  0]LogRenderer: Reallocating scene render targets to support 3704x2056 Format 10 NumSamples 1 (Frame:4).
+[2020.07.11-09.26.51:357][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.07.11-09.26.51:369][  1]LogBlueprintUserMessages: [LayoutLabelActor_70] VR
+[2020.07.11-09.26.51:372][  1]../../../viveNet/Content//data/layouts/  not found
+[2020.07.11-09.26.51:372][  1]../../../viveNet/Content//data/links/  not found
+[2020.07.11-09.26.51:444][  1]LogBlueprintUserMessages: [WebInterface_C_2147482521] loadedURL
+[2020.07.11-09.26.51:510][  1]LogBlueprintUserMessages: [nodePanel_C_2147482515] loadedURL
+[2020.07.11-09.26.51:600][  1]LogBlueprintUserMessages: [WebPanel1_C_2147482510] loadedURL
+[2020.07.11-09.26.54:706][ 20]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/Blueprints/ViveGameState.ViveGameState_C:ExecuteUbergraph_ViveGameState'!
+[2020.07.11-09.26.54:717][ 21]LogScript: Warning: Attempted to access index 0 from array K2Node_CustomEvent_Nodes of length 0!
+	loadNetworkNEW_C /Engine/Transient.GameEngine_2147482618:BP_VRNetGameInstance_C_2147482604.Switcher1_C_2147482522.WidgetTree_0.loadNetworkNEW
+	Function /Game/ui/loadNetworkNEW.loadNetworkNEW_C:ExecuteUbergraph_loadNetworkNEW:0143
+[2020.07.11-09.26.54:717][ 21]LogScript: Warning: Script call stack:
+	Function /Game/ui/loadNetworkNEW.loadNetworkNEW_C:ExecuteUbergraph_loadNetworkNEW
+
+[2020.07.11-09.26.54:717][ 21]LogStreaming: Warning: Failed to open ANSI TEXT file ../../../viveNet/Content//data/layouts/
+[2020.07.11-09.26.54:717][ 21]LogBlueprintUserMessages: [LayoutLabelActor_70] Hello
+[2020.07.11-09.26.54:717][ 21]LogBlueprintUserMessages: [LayoutLabelActor_70] Hello
+[2020.07.11-09.26.54:717][ 21]LogBlueprintUserMessages: [ViveGameState_C_2147482565] load network (ViveGameState): 
+[2020.07.11-09.26.54:718][ 21]LogBlueprintUserMessages: [Selections] RefreshSelectionList called!
+[2020.07.11-09.26.54:718][ 21]LogUMG: Display: Widget Class dynButtSel_C - Loaded Fast Template.
+[2020.07.11-09.26.54:729][ 21]LogBlueprintUserMessages: [TextureInteractionComponent] ServerRequestUpdateSelectionFiles found60 files
+[2020.07.11-09.26.59:122][415]LogBlueprintUserMessages: [ViveGameState_C_2147482565] [{"labels":["2_bio","3_mol","4_disease","5_cell"],"layouts":["1_spring","2_bio","3_mol","4_disease","5_cell","6_rwr"],"namespace":"ppi"}]
+[2020.07.11-09.26.59:133][416]LogBlueprintUserMessages: [ViveGameState_C_2147482565] {"labels":["2_bio","3_mol","4_disease","5_cell"],"layouts":["1_spring","2_bio","3_mol","4_disease","5_cell","6_rwr"],"namespace":"ppi"}
+[2020.07.11-09.26.59:233][425]LogBlueprintUserMessages: [ViveGameState_C_2147482565] [{"external_id":null,"id":67887,"name":"test1","namespace":"SELECTION"},{"external_id":null,"id":67888,"name":"test2","namespace":"SELECTION"},{"external_id":null,"id":67889,"name":"test3","namespace":"SELECTION"},{"external_id":null,"id":67890,"name":"test4","namespace":"SELECTION"},{"external_id":null,"id":67891,"name":"test10","namespace":"SELECTION"},{"external_id":null,"id":67892,"name":"someSelName","namespace":"SELECTION"},{"external_id":null,"id":67893,"name":"somename","namespace":"SELECTION"},{"external_id":null,"id":67894,"name":"sofdhmeSelName","namespace":"SELECTION"},{"external_id":null,"id":67895,"name":"REEEEEEEEEEE!","namespace":"SELECTION"},{"external_id":null,"id":67896,"name":"REEeeEEEEEEEEE!","namespace":"SELECTION"},{"external_id":null,"id":67897,"name":"junghurn1220","namespace":"SELECTION"},{"external_id":null,"id":67898,"name":"pitviper","namespace":"SELECTION"},{"external_id":null,"id":67899,"name":"jen17","namespace":"SELECTION"},{"external_id":null,"id":67900,"name":"jen18","namespace":"SELECTION"},{"external_id":null,"id":67901,"name":"somAARGrgARhhGagname","namespace":"SELECTION"},{"external_id":null,"id":67902,"name":"junghurn12220","namespace":"SELECTION"},{"external_id":null,"id":67903,"name":"junghurn12221","namespace":"SELECTION"},{"external_id":null,"id":67904,"name":"junghurn11220","namespace":"SELECTION"},{"external_id":null,"id":67905,"name":"oggggoggogg","namespace":"SELECTION"},{"external_id":null,"id":67906,"name":"uuuuu","namespace":"SELECTION"},{"external_id":null,"id":67907,"name":"uuuu45","namespace":"SELECTION"},{"external_id":null,"id":80197,"name":"junghurn1122110","namespace":"SELECTION"},{"external_id":null,"id":80198,"name":"jentest61","namespace":"SELECTION"},{"external_id":null,"id":80199,"name":"jentest62","namespace":"SELECTION"},{"external_id":null,"id":87916,"name":"DOCK2_seeds","namespace":"SELECTION"},{"external_id":null,"id":87917,"name":"DOCK2_variants","namespace":"SELECTION"},{"external_id":null,"id":87972,"name":"jentest63","namespace":"SELECTION"}]
+[2020.07.11-09.27.01:322][612]LogBlueprintUserMessages: [RightHandWidgetActor_C_2147482528] true
+[2020.07.11-09.27.01:322][612]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 1
+[2020.07.11-09.27.01:322][612]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2020.07.11-09.27.01:358][615]LogSlate: Took 0.001137 seconds to synchronously load lazily loaded font '../../../Engine/Content/EngineFonts/Faces/RobotoLight.ufont' (167K)
+[2020.07.11-09.27.02:552][722]LogSlate: New Slate User Created.  User Index 9, Is Virtual User: 1
+[2020.07.11-09.27.02:552][722]LogSlate: Slate User Registered.  User Index 9, Is Virtual User: 1
+[2020.07.11-09.27.02:552][722]LogSlate: Slate User Unregistered.  User Index 9
+[2020.07.11-09.27.02:552][722]LogSlate: Slate User Destroyed.  User Index 9, Is Virtual User: 1
+[2020.07.11-09.27.02:552][722]LogSlate: Slate User Unregistered.  User Index 9
+[2020.07.11-09.27.02:552][722]LogSlate: New Slate User Created.  User Index 9, Is Virtual User: 0
+[2020.07.11-09.27.02:552][722]LogSlate: Slate User Registered.  User Index 9, Is Virtual User: 0
+[2020.07.11-09.27.02:552][722]LogSlate: Slate User Destroyed.  User Index 9, Is Virtual User: 0
+[2020.07.11-09.27.02:563][723]LogSlate: New Slate User Created.  User Index 9, Is Virtual User: 1
+[2020.07.11-09.27.02:563][723]LogSlate: Slate User Registered.  User Index 9, Is Virtual User: 1
+[2020.07.11-09.27.02:753][740]LogSlate: Slate User Unregistered.  User Index 9
+[2020.07.11-09.27.02:753][740]LogSlate: Slate User Destroyed.  User Index 9, Is Virtual User: 1
+[2020.07.11-09.27.02:753][740]LogSlate: Slate User Unregistered.  User Index 9
+[2020.07.11-09.27.02:753][740]LogSlate: New Slate User Created.  User Index 9, Is Virtual User: 0
+[2020.07.11-09.27.02:753][740]LogSlate: Slate User Registered.  User Index 9, Is Virtual User: 0
+[2020.07.11-09.27.02:753][740]LogSlate: Slate User Destroyed.  User Index 9, Is Virtual User: 0
+[2020.07.11-09.27.03:040][766]LogSlate: New Slate User Created.  User Index 9, Is Virtual User: 1
+[2020.07.11-09.27.03:040][766]LogSlate: Slate User Registered.  User Index 9, Is Virtual User: 1
+[2020.07.11-09.27.03:915][844]LogBlueprintUserMessages: [VivePawn_C_2147482531] WebInterface_C_2147482521!!!! !
+[2020.07.11-09.27.05:267][965]LogBlueprintUserMessages: [VivePawn_C_2147482531] WebInterface_C_2147482521!!!! !
+[2020.07.11-09.27.06:003][ 31]LogSlate: Slate User Unregistered.  User Index 9
+[2020.07.11-09.27.06:003][ 31]LogSlate: Slate User Destroyed.  User Index 9, Is Virtual User: 1
+[2020.07.11-09.27.06:003][ 31]LogSlate: Slate User Unregistered.  User Index 9
+[2020.07.11-09.27.06:003][ 31]LogSlate: New Slate User Created.  User Index 9, Is Virtual User: 0
+[2020.07.11-09.27.06:003][ 31]LogSlate: Slate User Registered.  User Index 9, Is Virtual User: 0
+[2020.07.11-09.27.06:003][ 31]LogSlate: Slate User Destroyed.  User Index 9, Is Virtual User: 0
+[2020.07.11-09.27.06:161][ 45]LogSlate: New Slate User Created.  User Index 9, Is Virtual User: 1
+[2020.07.11-09.27.06:161][ 45]LogSlate: Slate User Registered.  User Index 9, Is Virtual User: 1
+[2020.07.11-09.27.06:172][ 46]LogSlate: Slate User Unregistered.  User Index 9
+[2020.07.11-09.27.06:173][ 46]LogSlate: Slate User Destroyed.  User Index 9, Is Virtual User: 1
+[2020.07.11-09.27.06:173][ 46]LogSlate: Slate User Unregistered.  User Index 9
+[2020.07.11-09.27.06:173][ 46]LogSlate: New Slate User Created.  User Index 9, Is Virtual User: 0
+[2020.07.11-09.27.06:173][ 46]LogSlate: Slate User Registered.  User Index 9, Is Virtual User: 0
+[2020.07.11-09.27.06:173][ 46]LogSlate: Slate User Destroyed.  User Index 9, Is Virtual User: 0
+[2020.07.11-09.27.06:173][ 46]LogSlate: New Slate User Created.  User Index 9, Is Virtual User: 1
+[2020.07.11-09.27.06:173][ 46]LogSlate: Slate User Registered.  User Index 9, Is Virtual User: 1
+[2020.07.11-09.27.06:184][ 47]LogSlate: Slate User Unregistered.  User Index 9
+[2020.07.11-09.27.06:184][ 47]LogSlate: Slate User Destroyed.  User Index 9, Is Virtual User: 1
+[2020.07.11-09.27.06:184][ 47]LogSlate: Slate User Unregistered.  User Index 9
+[2020.07.11-09.27.06:184][ 47]LogSlate: New Slate User Created.  User Index 9, Is Virtual User: 0
+[2020.07.11-09.27.06:184][ 47]LogSlate: Slate User Registered.  User Index 9, Is Virtual User: 0
+[2020.07.11-09.27.06:184][ 47]LogSlate: Slate User Destroyed.  User Index 9, Is Virtual User: 0
+[2020.07.11-09.27.06:184][ 47]LogSlate: New Slate User Created.  User Index 9, Is Virtual User: 1
+[2020.07.11-09.27.06:184][ 47]LogSlate: Slate User Registered.  User Index 9, Is Virtual User: 1
+[2020.07.11-09.27.06:206][ 49]LogSlate: Slate User Unregistered.  User Index 9
+[2020.07.11-09.27.06:206][ 49]LogSlate: Slate User Destroyed.  User Index 9, Is Virtual User: 1
+[2020.07.11-09.27.06:206][ 49]LogSlate: Slate User Unregistered.  User Index 9
+[2020.07.11-09.27.06:206][ 49]LogSlate: New Slate User Created.  User Index 9, Is Virtual User: 0
+[2020.07.11-09.27.06:206][ 49]LogSlate: Slate User Registered.  User Index 9, Is Virtual User: 0
+[2020.07.11-09.27.06:206][ 49]LogSlate: Slate User Destroyed.  User Index 9, Is Virtual User: 0
+[2020.07.11-09.27.07:783][130]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsDesktop_Pawn_4
+	ViveGameState_C /Game/netVR.netVR:PersistentLevel.ViveGameState_C_2147482565
+	Function /Game/Blueprints/ViveGameState.ViveGameState_C:ExecuteUbergraph_ViveGameState:660A
+[2020.07.11-09.27.07:783][130]LogScript: Warning: Script call stack:
+	Function /Game/WebUI/WebInterface.WebInterface_C:Interface_Event
+	Function /Game/WebUI/WebInterface.WebInterface_C:ExecuteUbergraph_WebInterface
+	Function /Game/Blueprints/ViveGameState.ViveGameState_C:Web_Interface_Event
+	Function /Game/Blueprints/ViveGameState.ViveGameState_C:ExecuteUbergraph_ViveGameState
+	Function /Game/Blueprints/ViveGameState.ViveGameState_C:ClearAllHighlights
+	Function /Game/Blueprints/ViveGameState.ViveGameState_C:ExecuteUbergraph_ViveGameState
+
+[2020.07.11-09.27.07:783][130]LogScript: Warning: Accessed None trying to read property thisTextureinteraction
+	ViveGameState_C /Game/netVR.netVR:PersistentLevel.ViveGameState_C_2147482565
+	Function /Game/Blueprints/ViveGameState.ViveGameState_C:ExecuteUbergraph_ViveGameState:13BC
+[2020.07.11-09.27.07:783][130]LogScript: Warning: Script call stack:
+	Function /Game/WebUI/WebInterface.WebInterface_C:Interface_Event
+	Function /Game/WebUI/WebInterface.WebInterface_C:ExecuteUbergraph_WebInterface
+	Function /Game/Blueprints/ViveGameState.ViveGameState_C:Web_Interface_Event
+	Function /Game/Blueprints/ViveGameState.ViveGameState_C:ExecuteUbergraph_ViveGameState
+	Function /Game/Blueprints/ViveGameState.ViveGameState_C:ClearAllHighlights
+	Function /Game/Blueprints/ViveGameState.ViveGameState_C:ExecuteUbergraph_ViveGameState
+
+[2020.07.11-09.27.07:783][130]LogScript: Warning: Accessed None trying to read property thisTextureinteraction
+	ViveGameState_C /Game/netVR.netVR:PersistentLevel.ViveGameState_C_2147482565
+	Function /Game/Blueprints/ViveGameState.ViveGameState_C:ExecuteUbergraph_ViveGameState:12AD
+[2020.07.11-09.27.07:783][130]LogScript: Warning: Script call stack:
+	Function /Game/WebUI/WebInterface.WebInterface_C:Interface_Event
+	Function /Game/WebUI/WebInterface.WebInterface_C:ExecuteUbergraph_WebInterface
+	Function /Game/Blueprints/ViveGameState.ViveGameState_C:Web_Interface_Event
+	Function /Game/Blueprints/ViveGameState.ViveGameState_C:ExecuteUbergraph_ViveGameState
+	Function /Game/Blueprints/ViveGameState.ViveGameState_C:ClearAllHighlights
+	Function /Game/Blueprints/ViveGameState.ViveGameState_C:ExecuteUbergraph_ViveGameState
+
+[2020.07.11-09.27.09:523][287]LogBlueprintUserMessages: [RightHandWidgetActor_C_2147482528] false
+[2020.07.11-09.27.09:523][287]LogSlate: Slate User Unregistered.  User Index 8
+[2020.07.11-09.27.09:523][287]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2020.07.11-09.27.09:523][287]LogSlate: Slate User Unregistered.  User Index 8
+[2020.07.11-09.27.09:523][287]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 0
+[2020.07.11-09.27.09:523][287]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 0
+[2020.07.11-09.27.09:523][287]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 0
+[2020.07.11-09.27.13:129][610]LogBlueprintUserMessages: [TextureInteractionComponent] 14588
+[2020.07.11-09.27.13:129][610]LogBlueprintUserMessages: [ViveGameState_C_2147482565] Hello
+[2020.07.11-09.27.13:130][610]LogBlueprintUserMessages: [nodePanel_C_2147482515] call to updateNodePanel
+[2020.07.11-09.27.13:208][617]LogBlueprintUserMessages: [TextureInteractionComponent] 14588
+[2020.07.11-09.27.13:208][617]LogBlueprintUserMessages: [ViveGameState_C_2147482565] Hello
+[2020.07.11-09.27.13:208][617]LogBlueprintUserMessages: [nodePanel_C_2147482515] call to updateNodePanel
+[2020.07.11-09.27.16:804][937]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 1
+[2020.07.11-09.27.16:804][937]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2020.07.11-09.27.17:140][967]LogBlueprintUserMessages: [VivePawn_C_2147482531] nodePanel_C_2147482515!!!! !
+[2020.07.11-09.27.18:045][ 48]LogBlueprintUserMessages: [VivePawn_C_2147482531] nodePanel_C_2147482515!!!! !
+[2020.07.11-09.27.18:672][104]LogSlate: Slate User Unregistered.  User Index 8
+[2020.07.11-09.27.18:672][104]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2020.07.11-09.27.18:672][104]LogSlate: Slate User Unregistered.  User Index 8
+[2020.07.11-09.27.18:672][104]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 0
+[2020.07.11-09.27.18:672][104]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 0
+[2020.07.11-09.27.18:672][104]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 0
+[2020.07.11-09.27.21:653][371]LogBlueprintUserMessages: [TextureInteractionComponent] 13881
+[2020.07.11-09.27.21:653][371]LogBlueprintUserMessages: [ViveGameState_C_2147482565] Hello
+[2020.07.11-09.27.21:653][371]LogBlueprintUserMessages: [nodePanel_C_2147482515] call to updateNodePanel
+[2020.07.11-09.27.21:720][377]LogBlueprintUserMessages: [TextureInteractionComponent] 13881
+[2020.07.11-09.27.21:720][377]LogBlueprintUserMessages: [ViveGameState_C_2147482565] Hello
+[2020.07.11-09.27.21:720][377]LogBlueprintUserMessages: [nodePanel_C_2147482515] call to updateNodePanel
+[2020.07.11-09.27.25:262][691]LogBlueprintUserMessages: [RightHandWidgetActor_C_2147482528] true
+[2020.07.11-09.27.25:262][691]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 1
+[2020.07.11-09.27.25:263][691]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2020.07.11-09.27.25:750][735]LogBlueprintUserMessages: [RightHandWidgetActor_C_2147482528] false
+[2020.07.11-09.27.25:750][735]LogSlate: Slate User Unregistered.  User Index 8
+[2020.07.11-09.27.25:750][735]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2020.07.11-09.27.25:750][735]LogSlate: Slate User Unregistered.  User Index 8
+[2020.07.11-09.27.25:750][735]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 0
+[2020.07.11-09.27.25:750][735]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 0
+[2020.07.11-09.27.25:750][735]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 0
+[2020.07.11-09.27.26:535][805]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 1
+[2020.07.11-09.27.26:535][805]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2020.07.11-09.27.26:635][814]LogBlueprintUserMessages: [VivePawn_C_2147482531] WebPanel1_C_2147482510!!!! !
+[2020.07.11-09.27.26:802][829]LogSlate: Slate User Unregistered.  User Index 8
+[2020.07.11-09.27.26:803][829]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2020.07.11-09.27.26:803][829]LogSlate: Slate User Unregistered.  User Index 8
+[2020.07.11-09.27.26:803][829]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 0
+[2020.07.11-09.27.26:803][829]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 0
+[2020.07.11-09.27.26:803][829]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 0
+[2020.07.11-09.27.27:250][869]LogBlueprintUserMessages: [RightHandWidgetActor_C_2147482528] true
+[2020.07.11-09.27.27:251][869]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 1
+[2020.07.11-09.27.27:251][869]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2020.07.11-09.27.27:727][911]LogSlate: New Slate User Created.  User Index 9, Is Virtual User: 1
+[2020.07.11-09.27.27:727][911]LogSlate: Slate User Registered.  User Index 9, Is Virtual User: 1
+[2020.07.11-09.27.28:065][941]LogBlueprintUserMessages: [VivePawn_C_2147482531] WebInterface_C_2147482521!!!! !
+[2020.07.11-09.27.28:132][947]LogBlueprintUserMessages: [RightHandWidgetActor_C_2147482528] false
+[2020.07.11-09.27.28:132][947]LogSlate: Slate User Unregistered.  User Index 8
+[2020.07.11-09.27.28:132][947]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2020.07.11-09.27.28:133][947]LogSlate: Slate User Unregistered.  User Index 8
+[2020.07.11-09.27.28:133][947]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 0
+[2020.07.11-09.27.28:133][947]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 0
+[2020.07.11-09.27.28:133][947]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 0
+[2020.07.11-09.27.28:133][947]LogSlate: Slate User Unregistered.  User Index 9
+[2020.07.11-09.27.28:133][947]LogSlate: Slate User Destroyed.  User Index 9, Is Virtual User: 1
+[2020.07.11-09.27.28:133][947]LogSlate: Slate User Unregistered.  User Index 9
+[2020.07.11-09.27.28:133][947]LogSlate: New Slate User Created.  User Index 9, Is Virtual User: 0
+[2020.07.11-09.27.28:133][947]LogSlate: Slate User Registered.  User Index 9, Is Virtual User: 0
+[2020.07.11-09.27.28:133][947]LogSlate: Slate User Destroyed.  User Index 9, Is Virtual User: 0
+[2020.07.11-09.27.28:189][952]LogBlueprintUserMessages: [RightHandWidgetActor_C_2147482528] true
+[2020.07.11-09.27.28:189][952]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 1
+[2020.07.11-09.27.28:189][952]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2020.07.11-09.27.28:189][952]LogSlate: New Slate User Created.  User Index 9, Is Virtual User: 1
+[2020.07.11-09.27.28:189][952]LogSlate: Slate User Registered.  User Index 9, Is Virtual User: 1
+[2020.07.11-09.27.28:189][952]LogBlueprintUserMessages: [VivePawn_C_2147482531] WebInterface_C_2147482521!!!! !
+[2020.07.11-09.27.28:632][992]LogSlate: Slate User Unregistered.  User Index 9
+[2020.07.11-09.27.28:632][992]LogSlate: Slate User Destroyed.  User Index 9, Is Virtual User: 1
+[2020.07.11-09.27.28:632][992]LogSlate: Slate User Unregistered.  User Index 9
+[2020.07.11-09.27.28:632][992]LogSlate: New Slate User Created.  User Index 9, Is Virtual User: 0
+[2020.07.11-09.27.28:632][992]LogSlate: Slate User Registered.  User Index 9, Is Virtual User: 0
+[2020.07.11-09.27.28:632][992]LogSlate: Slate User Destroyed.  User Index 9, Is Virtual User: 0
+[2020.07.11-09.27.29:048][ 29]LogBlueprintUserMessages: [RightHandWidgetActor_C_2147482528] false
+[2020.07.11-09.27.29:048][ 29]LogSlate: Slate User Unregistered.  User Index 8
+[2020.07.11-09.27.29:048][ 29]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2020.07.11-09.27.29:048][ 29]LogSlate: Slate User Unregistered.  User Index 8
+[2020.07.11-09.27.29:048][ 29]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 0
+[2020.07.11-09.27.29:048][ 29]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 0
+[2020.07.11-09.27.29:048][ 29]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 0
+[2020.07.11-09.27.29:809][ 97]LogBlueprintUserMessages: [RightHandWidgetActor_C_2147482528] true
+[2020.07.11-09.27.29:809][ 97]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 1
+[2020.07.11-09.27.29:809][ 97]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2020.07.11-09.27.35:607][387]
+[2020.07.11-09.27.35:609][387]
+[2020.07.11-09.27.35:610][387]
+[2020.07.11-09.27.35:615][387]
+[2020.07.11-09.27.35:616][387]
+[2020.07.11-09.27.35:617][387]
+[2020.07.11-09.27.35:622][387]
+[2020.07.11-09.27.35:622][387]
+[2020.07.11-09.27.35:622][387]
+[2020.07.11-09.27.35:625][387]
+[2020.07.11-09.27.35:636][387]LogSlate: New Slate User Created.  User Index 9, Is Virtual User: 1
+[2020.07.11-09.27.35:636][387]LogSlate: Slate User Registered.  User Index 9, Is Virtual User: 1
+[2020.07.11-09.27.35:636][387]LogSlate: Slate User Unregistered.  User Index 9
+[2020.07.11-09.27.35:636][387]LogSlate: Slate User Destroyed.  User Index 9, Is Virtual User: 1
+[2020.07.11-09.27.35:636][387]LogSlate: Slate User Unregistered.  User Index 9
+[2020.07.11-09.27.35:636][387]LogSlate: New Slate User Created.  User Index 9, Is Virtual User: 0
+[2020.07.11-09.27.35:636][387]LogSlate: Slate User Registered.  User Index 9, Is Virtual User: 0
+[2020.07.11-09.27.35:636][387]LogSlate: Slate User Destroyed.  User Index 9, Is Virtual User: 0
+[2020.07.11-09.27.35:636][387]LogBlueprintUserMessages: [RightHandWidgetActor_C_2147482528] false
+[2020.07.11-09.27.35:636][387]LogSlate: Slate User Unregistered.  User Index 8
+[2020.07.11-09.27.35:636][387]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2020.07.11-09.27.35:636][387]LogSlate: Slate User Unregistered.  User Index 8
+[2020.07.11-09.27.35:636][387]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 0
+[2020.07.11-09.27.35:636][387]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 0
+[2020.07.11-09.27.35:636][387]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 0
+[2020.07.11-09.27.36:731][419]LogBlueprintUserMessages: [RightHandWidgetActor_C_2147482528] true
+[2020.07.11-09.27.36:731][419]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 1
+[2020.07.11-09.27.36:731][419]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2020.07.11-09.27.37:431][437]LogSlate: New Slate User Created.  User Index 9, Is Virtual User: 1
+[2020.07.11-09.27.37:431][437]LogSlate: Slate User Registered.  User Index 9, Is Virtual User: 1
+[2020.07.11-09.27.37:999][452]LogBlueprintUserMessages: [VivePawn_C_2147482531] WebInterface_C_2147482521!!!! !
+[2020.07.11-09.27.38:656][469]LogSlate: Slate User Unregistered.  User Index 9
+[2020.07.11-09.27.38:656][469]LogSlate: Slate User Destroyed.  User Index 9, Is Virtual User: 1
+[2020.07.11-09.27.38:656][469]LogSlate: Slate User Unregistered.  User Index 9
+[2020.07.11-09.27.38:656][469]LogSlate: New Slate User Created.  User Index 9, Is Virtual User: 0
+[2020.07.11-09.27.38:656][469]LogSlate: Slate User Registered.  User Index 9, Is Virtual User: 0
+[2020.07.11-09.27.38:656][469]LogSlate: Slate User Destroyed.  User Index 9, Is Virtual User: 0
+[2020.07.11-09.27.38:881][475]LogSlate: New Slate User Created.  User Index 9, Is Virtual User: 1
+[2020.07.11-09.27.38:881][475]LogSlate: Slate User Registered.  User Index 9, Is Virtual User: 1
+[2020.07.11-09.27.38:998][478]LogSlate: Slate User Unregistered.  User Index 9
+[2020.07.11-09.27.38:998][478]LogSlate: Slate User Destroyed.  User Index 9, Is Virtual User: 1
+[2020.07.11-09.27.38:998][478]LogSlate: Slate User Unregistered.  User Index 9
+[2020.07.11-09.27.38:998][478]LogSlate: New Slate User Created.  User Index 9, Is Virtual User: 0
+[2020.07.11-09.27.38:998][478]LogSlate: Slate User Registered.  User Index 9, Is Virtual User: 0
+[2020.07.11-09.27.38:998][478]LogSlate: Slate User Destroyed.  User Index 9, Is Virtual User: 0
+[2020.07.11-09.27.39:038][479]LogSlate: New Slate User Created.  User Index 9, Is Virtual User: 1
+[2020.07.11-09.27.39:038][479]LogSlate: Slate User Registered.  User Index 9, Is Virtual User: 1
+[2020.07.11-09.27.39:038][479]LogSlate: Slate User Unregistered.  User Index 9
+[2020.07.11-09.27.39:038][479]LogSlate: Slate User Destroyed.  User Index 9, Is Virtual User: 1
+[2020.07.11-09.27.39:038][479]LogSlate: Slate User Unregistered.  User Index 9
+[2020.07.11-09.27.39:038][479]LogSlate: New Slate User Created.  User Index 9, Is Virtual User: 0
+[2020.07.11-09.27.39:038][479]LogSlate: Slate User Registered.  User Index 9, Is Virtual User: 0
+[2020.07.11-09.27.39:038][479]LogSlate: Slate User Destroyed.  User Index 9, Is Virtual User: 0
+[2020.07.11-09.27.39:079][480]LogSlate: New Slate User Created.  User Index 9, Is Virtual User: 1
+[2020.07.11-09.27.39:079][480]LogSlate: Slate User Registered.  User Index 9, Is Virtual User: 1
+[2020.07.11-09.27.39:079][480]LogSlate: Slate User Unregistered.  User Index 9
+[2020.07.11-09.27.39:079][480]LogSlate: Slate User Destroyed.  User Index 9, Is Virtual User: 1
+[2020.07.11-09.27.39:079][480]LogSlate: Slate User Unregistered.  User Index 9
+[2020.07.11-09.27.39:079][480]LogSlate: New Slate User Created.  User Index 9, Is Virtual User: 0
+[2020.07.11-09.27.39:079][480]LogSlate: Slate User Registered.  User Index 9, Is Virtual User: 0
+[2020.07.11-09.27.39:079][480]LogSlate: Slate User Destroyed.  User Index 9, Is Virtual User: 0
+[2020.07.11-09.27.39:115][481]LogSlate: New Slate User Created.  User Index 9, Is Virtual User: 1
+[2020.07.11-09.27.39:115][481]LogSlate: Slate User Registered.  User Index 9, Is Virtual User: 1
+[2020.07.11-09.27.39:597][494]LogBlueprintUserMessages: [VivePawn_C_2147482531] WebInterface_C_2147482521!!!! !
+[2020.07.11-09.27.40:228][511]LogSlate: Slate User Unregistered.  User Index 9
+[2020.07.11-09.27.40:228][511]LogSlate: Slate User Destroyed.  User Index 9, Is Virtual User: 1
+[2020.07.11-09.27.40:228][511]LogSlate: Slate User Unregistered.  User Index 9
+[2020.07.11-09.27.40:228][511]LogSlate: New Slate User Created.  User Index 9, Is Virtual User: 0
+[2020.07.11-09.27.40:228][511]LogSlate: Slate User Registered.  User Index 9, Is Virtual User: 0
+[2020.07.11-09.27.40:228][511]LogSlate: Slate User Destroyed.  User Index 9, Is Virtual User: 0
+[2020.07.11-09.27.40:228][511]LogSlate: New Slate User Created.  User Index 9, Is Virtual User: 1
+[2020.07.11-09.27.40:228][511]LogSlate: Slate User Registered.  User Index 9, Is Virtual User: 1
+[2020.07.11-09.27.40:262][512]LogSlate: Slate User Unregistered.  User Index 9
+[2020.07.11-09.27.40:262][512]LogSlate: Slate User Destroyed.  User Index 9, Is Virtual User: 1
+[2020.07.11-09.27.40:262][512]LogSlate: Slate User Unregistered.  User Index 9
+[2020.07.11-09.27.40:262][512]LogSlate: New Slate User Created.  User Index 9, Is Virtual User: 0
+[2020.07.11-09.27.40:262][512]LogSlate: Slate User Registered.  User Index 9, Is Virtual User: 0
+[2020.07.11-09.27.40:262][512]LogSlate: Slate User Destroyed.  User Index 9, Is Virtual User: 0
+[2020.07.11-09.27.40:381][515]LogSlate: New Slate User Created.  User Index 9, Is Virtual User: 1
+[2020.07.11-09.27.40:381][515]LogSlate: Slate User Registered.  User Index 9, Is Virtual User: 1
+[2020.07.11-09.27.41:138][536]LogBlueprintUserMessages: [VivePawn_C_2147482531] WebInterface_C_2147482521!!!! !
+[2020.07.11-09.27.45:303][712]LogBlueprintUserMessages: [VivePawn_C_2147482531] WebInterface_C_2147482521!!!! !
+[2020.07.11-09.27.47:179][796]LogBlueprintUserMessages: [VivePawn_C_2147482531] WebInterface_C_2147482521!!!! !
+[2020.07.11-09.27.50:575][948]LogSlate: Slate User Unregistered.  User Index 9
+[2020.07.11-09.27.50:575][948]LogSlate: Slate User Destroyed.  User Index 9, Is Virtual User: 1
+[2020.07.11-09.27.50:575][948]LogSlate: Slate User Unregistered.  User Index 9
+[2020.07.11-09.27.50:575][948]LogSlate: New Slate User Created.  User Index 9, Is Virtual User: 0
+[2020.07.11-09.27.50:575][948]LogSlate: Slate User Registered.  User Index 9, Is Virtual User: 0
+[2020.07.11-09.27.50:575][948]LogSlate: Slate User Destroyed.  User Index 9, Is Virtual User: 0
+[2020.07.11-09.27.52:574][ 84]LogSlate: New Slate User Created.  User Index 9, Is Virtual User: 1
+[2020.07.11-09.27.52:574][ 84]LogSlate: Slate User Registered.  User Index 9, Is Virtual User: 1
+[2020.07.11-09.27.52:695][ 95]LogBlueprintUserMessages: [VivePawn_C_2147482531] WebPanel1_C_2147482510!!!! !
+[2020.07.11-09.27.53:424][160]LogSlate: Slate User Unregistered.  User Index 9
+[2020.07.11-09.27.53:424][160]LogSlate: Slate User Destroyed.  User Index 9, Is Virtual User: 1
+[2020.07.11-09.27.53:424][160]LogSlate: Slate User Unregistered.  User Index 9
+[2020.07.11-09.27.53:424][160]LogSlate: New Slate User Created.  User Index 9, Is Virtual User: 0
+[2020.07.11-09.27.53:424][160]LogSlate: Slate User Registered.  User Index 9, Is Virtual User: 0
+[2020.07.11-09.27.53:424][160]LogSlate: Slate User Destroyed.  User Index 9, Is Virtual User: 0
+[2020.07.11-09.27.53:826][196]LogSlate: New Slate User Created.  User Index 9, Is Virtual User: 1
+[2020.07.11-09.27.53:826][196]LogSlate: Slate User Registered.  User Index 9, Is Virtual User: 1
+[2020.07.11-09.27.54:057][217]LogBlueprintUserMessages: [VivePawn_C_2147482531] WebPanel1_C_2147482510!!!! !
+[2020.07.11-09.27.54:418][249]LogSlate: Slate User Unregistered.  User Index 9
+[2020.07.11-09.27.54:418][249]LogSlate: Slate User Destroyed.  User Index 9, Is Virtual User: 1
+[2020.07.11-09.27.54:418][249]LogSlate: Slate User Unregistered.  User Index 9
+[2020.07.11-09.27.54:418][249]LogSlate: New Slate User Created.  User Index 9, Is Virtual User: 0
+[2020.07.11-09.27.54:418][249]LogSlate: Slate User Registered.  User Index 9, Is Virtual User: 0
+[2020.07.11-09.27.54:418][249]LogSlate: Slate User Destroyed.  User Index 9, Is Virtual User: 0
+[2020.07.11-09.27.56:852][404]LogBlueprintUserMessages: [RightHandWidgetActor_C_2147482528] false
+[2020.07.11-09.27.56:852][404]LogSlate: Slate User Unregistered.  User Index 8
+[2020.07.11-09.27.56:852][404]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2020.07.11-09.27.56:852][404]LogSlate: Slate User Unregistered.  User Index 8
+[2020.07.11-09.27.56:852][404]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 0
+[2020.07.11-09.27.56:852][404]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 0
+[2020.07.11-09.27.56:852][404]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 0
+[2020.07.11-09.27.57:297][424]LogBlueprintUserMessages: [RightHandWidgetActor_C_2147482528] true
+[2020.07.11-09.27.57:297][424]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 1
+[2020.07.11-09.27.57:297][424]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2020.07.11-09.28.01:475][611]LogBlueprintUserMessages: [RightHandWidgetActor_C_2147482528] false
+[2020.07.11-09.28.01:475][611]LogSlate: Slate User Unregistered.  User Index 8
+[2020.07.11-09.28.01:475][611]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2020.07.11-09.28.01:475][611]LogSlate: Slate User Unregistered.  User Index 8
+[2020.07.11-09.28.01:475][611]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 0
+[2020.07.11-09.28.01:475][611]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 0
+[2020.07.11-09.28.01:475][611]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 0
+[2020.07.11-09.28.04:568][778]LogBlueprintUserMessages: [RightHandWidgetActor_C_2147482528] true
+[2020.07.11-09.28.04:568][778]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 1
+[2020.07.11-09.28.04:568][778]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2020.07.11-09.28.04:591][779]LogBlueprintUserMessages: [RightHandWidgetActor_C_2147482528] false
+[2020.07.11-09.28.04:591][779]LogSlate: Slate User Unregistered.  User Index 8
+[2020.07.11-09.28.04:591][779]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2020.07.11-09.28.04:591][779]LogSlate: Slate User Unregistered.  User Index 8
+[2020.07.11-09.28.04:591][779]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 0
+[2020.07.11-09.28.04:591][779]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 0
+[2020.07.11-09.28.04:591][779]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 0
+[2020.07.11-09.28.04:635][781]LogBlueprintUserMessages: [RightHandWidgetActor_C_2147482528] true
+[2020.07.11-09.28.04:636][781]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 1
+[2020.07.11-09.28.04:636][781]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2020.07.11-09.28.05:441][817]LogBlueprintUserMessages: [RightHandWidgetActor_C_2147482528] false
+[2020.07.11-09.28.05:441][817]LogSlate: Slate User Unregistered.  User Index 8
+[2020.07.11-09.28.05:441][817]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2020.07.11-09.28.05:441][817]LogSlate: Slate User Unregistered.  User Index 8
+[2020.07.11-09.28.05:441][817]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 0
+[2020.07.11-09.28.05:441][817]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 0
+[2020.07.11-09.28.05:441][817]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 0
+[2020.07.11-09.28.05:509][820]LogBlueprintUserMessages: [ViveGameState_C_2147482565] {"nodes":[{"node_id":16851},{"node_id":18116},{"node_id":14165},{"node_id":16854},{"node_id":768},{"node_id":13991},{"node_id":2051},{"node_id":1839},{"node_id":18151},{"node_id":15689},{"node_id":1461},{"node_id":9967},{"node_id":17612},{"node_id":14642},{"node_id":15025},{"node_id":16243},{"node_id":16244},{"node_id":17454},{"node_id":17763},{"node_id":2070},{"node_id":12137},{"node_id":12173},{"node_id":17473},{"node_id":17904},{"node_id":8085},{"node_id":5151},{"node_id":41},{"node_id":9947},{"node_id":5128},{"node_id":3401},{"node_id":13446},{"node_id":5265},{"node_id":902},{"node_id":1952},{"node_id":4512},{"node_id":16233},{"node_id":12294},{"node_id":14344},{"node_id":14672},{"node_id":1495},{"node_id":16236},{"node_id":1954},{"node_id":19000},{"node_id":9167},{"node_id":9831},{"node_id":1231},{"node_id":6083},{"node_id":19241},{"node_id":1966},{"node_id":16076},{"node_id":84},{"node_id":2528},{"node_id":13845},{"node_id":13847},{"node_id":15931},{"node_id":7472},{"node_id":16092},{"node_id":5958},{"node_id":16239},{"node_id":16796},{"node_id":650},{"node_id":1023},{"node_id":15930},{"node_id":15205},{"node_id":17799},{"node_id":2069},{"node_id":4464},{"node_id":1232},{"node_id":82},{"node_id":1827},{"node_id":3142},{"node_id":2067},{"node_id":8625},{"node_id":9212},{"node_id":15181},{"node_id":17393},{"node_id":18772},{"node_id":19315},{"node_id":509},{"node_id":1491},{"node_id":2550},{"node_id":18739},{"node_id":2066},{"node_id":6833},{"node_id":2065},{"node_id":15998},{"node_id":15522},{"node_id":8308},{"node_id":10855},{"node_id":920},{"node_id":8520},{"node_id":5129},{"node_id":12306},{"node_id":16412},{"node_id":7205},{"node_id":18996},{"node_id":5686},{"node_id":59},{"node_id":17467},{"node_id":8254},{"node_id":2132},{"node_id":4712},{"node_id":12908},{"node_id":118},{"node_id":16510},{"node_id":9345},{"node_id":6301},{"node_id":10406},{"node_id":5805},{"node_id":5806},{"node_id":17079},{"node_id":17602},{"node_id":18631},{"node_id":8397},{"node_id":2267},{"node_id":2294},{"node_id":7420},{"node_id":1284},{"node_id":17170},{"node_id":4395},{"node_id":3891},{"node_id":830},{"node_id":3911},{"node_id":6480},{"node_id":4954},{"node_id":3931},{"node_id":3441},{"node_id":12170},{"node_id":12184},{"node_id":1945},{"node_id":9114},{"node_id":6062},{"node_id":8634},{"node_id":3003},{"node_id":5586},{"node_id":1490},{"node_id":4569},{"node_id":18906},{"node_id":18406},{"node_id":8184},{"node_id":14841}],"mode":"new"}
+[2020.07.11-09.28.05:510][820]LogBlueprintUserMessages: [ViveGameState_C_2147482565] {"nodes":[{"node_id":16652},{"node_id":18665},{"node_id":2306},{"node_id":16655},{"node_id":19009},{"node_id":970},{"node_id":968},{"node_id":1782},{"node_id":15195},{"node_id":1777},{"node_id":941},{"node_id":2369},{"node_id":1805},{"node_id":4675},{"node_id":16654},{"node_id":4876},{"node_id":16424},{"node_id":16846},{"node_id":5767},{"node_id":18047},{"node_id":17172},{"node_id":17946},{"node_id":2477},{"node_id":1137},{"node_id":1179},{"node_id":1403},{"node_id":6114},{"node_id":3159},{"node_id":4074},{"node_id":4563},{"node_id":19085},{"node_id":15199},{"node_id":1418},{"node_id":1994},{"node_id":4544},{"node_id":16660},{"node_id":17837},{"node_id":19335},{"node_id":9587},{"node_id":11447},{"node_id":18783},{"node_id":1409},{"node_id":10100},{"node_id":1015},{"node_id":4538},{"node_id":16627},{"node_id":19435},{"node_id":19464},{"node_id":969},{"node_id":3947},{"node_id":15952},{"node_id":19216},{"node_id":407},{"node_id":973},{"node_id":4776},{"node_id":1318},{"node_id":1800},{"node_id":4846},{"node_id":5888},{"node_id":15413},{"node_id":16595},{"node_id":2485},{"node_id":4336},{"node_id":16063},{"node_id":17510},{"node_id":17653},{"node_id":19316},{"node_id":1341},{"node_id":1419},{"node_id":2408},{"node_id":2495},{"node_id":4766},{"node_id":16661},{"node_id":19462},{"node_id":5772},{"node_id":7209},{"node_id":11109},{"node_id":12821},{"node_id":17845},{"node_id":18663},{"node_id":1931},{"node_id":14793},{"node_id":16290},{"node_id":16316},{"node_id":16674},{"node_id":16811},{"node_id":19463},{"node_id":1121},{"node_id":1234},{"node_id":3457},{"node_id":6136},{"node_id":7547},{"node_id":9437},{"node_id":9572},{"node_id":10536},{"node_id":16826},{"node_id":17695},{"node_id":1795},{"node_id":2310},{"node_id":3190},{"node_id":6534},{"node_id":76},{"node_id":1417},{"node_id":2452},{"node_id":8277},{"node_id":16343},{"node_id":18788},{"node_id":1478},{"node_id":6135},{"node_id":1029},{"node_id":17929},{"node_id":11787},{"node_id":12820},{"node_id":18459},{"node_id":9769},{"node_id":17462},{"node_id":6204},{"node_id":15937},{"node_id":3663},{"node_id":9823},{"node_id":5225},{"node_id":5226},{"node_id":8300},{"node_id":8305},{"node_id":16499},{"node_id":17528},{"node_id":1144},{"node_id":15482},{"node_id":18555},{"node_id":10883},{"node_id":11401},{"node_id":141},{"node_id":18577},{"node_id":17564},{"node_id":1696},{"node_id":6305},{"node_id":1189},{"node_id":7846},{"node_id":1194},{"node_id":5802},{"node_id":18610},{"node_id":8892},{"node_id":3779},{"node_id":12516},{"node_id":9959},{"node_id":1768},{"node_id":746},{"node_id":751},{"node_id":8444},{"node_id":7935},{"node_id":6912},{"node_id":1283},{"node_id":10506},{"node_id":2827},{"node_id":17168},{"node_id":2322},{"node_id":1811},{"node_id":12575},{"node_id":6949},{"node_id":5948},{"node_id":16701},{"node_id":10050},{"node_id":2897},{"node_id":1883},{"node_id":15201},{"node_id":17768},{"node_id":3436},{"node_id":1911},{"node_id":9080},{"node_id":1401},{"node_id":9089},{"node_id":5509},{"node_id":19336},{"node_id":9099},{"node_id":16780},{"node_id":9628},{"node_id":12192},{"node_id":11173},{"node_id":10151},{"node_id":19379},{"node_id":15286},{"node_id":16310},{"node_id":10176},{"node_id":17857},{"node_id":16835},{"node_id":4550},{"node_id":6599},{"node_id":10184},{"node_id":5064},{"node_id":12233},{"node_id":14799},{"node_id":1999},{"node_id":3025},{"node_id":3026},{"node_id":16340},{"node_id":17373},{"node_id":2015},{"node_id":486},{"node_id":18419},{"node_id":15356}],"mode":"new"}
+[2020.07.11-09.28.05:511][820]LogBlueprintUserMessages: [ViveGameState_C_2147482565] {"nodes":[{"node_id":4530},{"node_id":9224},{"node_id":18026},{"node_id":1054},{"node_id":12890},{"node_id":464},{"node_id":12583},{"node_id":16688},{"node_id":2661},{"node_id":2988},{"node_id":9259},{"node_id":12388},{"node_id":15266}],"mode":"new"}
+[2020.07.11-09.28.12:831][157]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 1
+[2020.07.11-09.28.12:831][157]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2020.07.11-09.28.13:077][168]LogBlueprintUserMessages: [VivePawn_C_2147482531] WebPanel1_C_2147482510!!!! !
+[2020.07.11-09.28.13:388][182]LogBlueprintUserMessages: [TextureInteractionComponent] 5889
+[2020.07.11-09.28.13:426][182]LogBlueprintUserMessages: [nodePanel_C_2147482515] call to updateNodePanel
+[2020.07.11-09.28.13:458][185]LogSlate: Slate User Unregistered.  User Index 8
+[2020.07.11-09.28.13:458][185]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2020.07.11-09.28.13:458][185]LogSlate: Slate User Unregistered.  User Index 8
+[2020.07.11-09.28.13:458][185]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 0
+[2020.07.11-09.28.13:458][185]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 0
+[2020.07.11-09.28.13:458][185]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 0
+[2020.07.11-09.28.16:239][293]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 1
+[2020.07.11-09.28.16:239][293]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2020.07.11-09.28.16:465][303]LogBlueprintUserMessages: [VivePawn_C_2147482531] WebPanel1_C_2147482510!!!! !
+[2020.07.11-09.28.16:689][313]LogBlueprintUserMessages: [TextureInteractionComponent] 6321
+[2020.07.11-09.28.16:705][313]LogBlueprintUserMessages: [nodePanel_C_2147482515] call to updateNodePanel
+[2020.07.11-09.28.16:779][317]LogSlate: Slate User Unregistered.  User Index 8
+[2020.07.11-09.28.16:779][317]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2020.07.11-09.28.16:779][317]LogSlate: Slate User Unregistered.  User Index 8
+[2020.07.11-09.28.16:779][317]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 0
+[2020.07.11-09.28.16:779][317]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 0
+[2020.07.11-09.28.16:779][317]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 0
+[2020.07.11-09.28.18:789][407]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 1
+[2020.07.11-09.28.18:789][407]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2020.07.11-09.28.19:035][418]LogBlueprintUserMessages: [VivePawn_C_2147482531] WebPanel1_C_2147482510!!!! !
+[2020.07.11-09.28.19:191][425]LogBlueprintUserMessages: [TextureInteractionComponent] 12152
+[2020.07.11-09.28.19:202][425]LogBlueprintUserMessages: [nodePanel_C_2147482515] call to updateNodePanel
+[2020.07.11-09.28.19:395][437]LogSlate: Slate User Unregistered.  User Index 8
+[2020.07.11-09.28.19:395][437]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2020.07.11-09.28.19:395][437]LogSlate: Slate User Unregistered.  User Index 8
+[2020.07.11-09.28.19:395][437]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 0
+[2020.07.11-09.28.19:395][437]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 0
+[2020.07.11-09.28.19:395][437]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 0
+[2020.07.11-09.28.19:554][445]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 1
+[2020.07.11-09.28.19:554][445]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2020.07.11-09.28.20:025][466]LogBlueprintUserMessages: [VivePawn_C_2147482531] WebPanel1_C_2147482510!!!! !
+[2020.07.11-09.28.20:202][474]LogBlueprintUserMessages: [TextureInteractionComponent] 13461
+[2020.07.11-09.28.20:216][474]LogBlueprintUserMessages: [nodePanel_C_2147482515] call to updateNodePanel
+[2020.07.11-09.28.20:386][482]LogSlate: Slate User Unregistered.  User Index 8
+[2020.07.11-09.28.20:386][482]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2020.07.11-09.28.20:386][482]LogSlate: Slate User Unregistered.  User Index 8
+[2020.07.11-09.28.20:386][482]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 0
+[2020.07.11-09.28.20:386][482]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 0
+[2020.07.11-09.28.20:386][482]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 0
+[2020.07.11-09.28.22:106][559]LogBlueprintUserMessages: [RightHandWidgetActor_C_2147482528] true
+[2020.07.11-09.28.22:106][559]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 1
+[2020.07.11-09.28.22:106][559]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2020.07.11-09.28.23:003][599]LogBlueprintUserMessages: [RightHandWidgetActor_C_2147482528] false
+[2020.07.11-09.28.23:003][599]LogSlate: Slate User Unregistered.  User Index 8
+[2020.07.11-09.28.23:003][599]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2020.07.11-09.28.23:003][599]LogSlate: Slate User Unregistered.  User Index 8
+[2020.07.11-09.28.23:003][599]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 0
+[2020.07.11-09.28.23:003][599]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 0
+[2020.07.11-09.28.23:003][599]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 0
+[2020.07.11-09.28.43:204][149]LogRHI: Error: SyncInterval 0
+[2020.07.11-09.28.43:204][149]LogRHI: Error: SwapChainDesc.BufferDesc.Width 3704
+[2020.07.11-09.28.43:204][149]LogRHI: Error: SwapChainDesc.BufferDesc.Height 2056
+[2020.07.11-09.28.43:204][149]LogRHI: Error: SwapChainDesc.BufferDesc.RefreshRate.Numerator 0
+[2020.07.11-09.28.43:204][149]LogRHI: Error: SwapChainDesc.BufferDesc.RefreshRate.Denominator 0
+[2020.07.11-09.28.43:204][149]LogRHI: Error: SwapChainDesc.BufferDesc.Format 24
+[2020.07.11-09.28.43:204][149]LogRHI: Error: SwapChainDesc.BufferDesc.ScanlineOrdering 0
+[2020.07.11-09.28.43:204][149]LogRHI: Error: SwapChainDesc.BufferDesc.Scaling 0
+[2020.07.11-09.28.43:204][149]LogRHI: Error: SwapChainDesc.SampleDesc.Count 1
+[2020.07.11-09.28.43:204][149]LogRHI: Error: SwapChainDesc.SampleDesc.Quality 0
+[2020.07.11-09.28.43:204][149]LogRHI: Error: SwapChainDesc.BufferUsage 48
+[2020.07.11-09.28.43:204][149]LogRHI: Error: SwapChainDesc.BufferCount 2
+[2020.07.11-09.28.43:204][149]LogRHI: Error: SwapChainDesc.OutputWindow 000000000014091E
+[2020.07.11-09.28.43:204][149]LogRHI: Error: SwapChainDesc.Windowed true
+[2020.07.11-09.28.43:204][149]LogRHI: Error: SwapChainDesc.SwapEffect 4
+[2020.07.11-09.28.43:204][149]LogRHI: Error: SwapChainDesc.Flags 2050
+[2020.07.11-09.28.43:204][149]LogD3D11RHI: Error: Result failed 
+ at D:/Build/++UE4/Sync/Engine/Source/Runtime/Windows/D3D11RHI/Private/D3D11Viewport.cpp:368 
+ with error DXGI_ERROR_INVALID_CALL
+[2020.07.11-09.28.43:204][149]LogWindows: Windows GetLastError: The operation completed successfully. (0)

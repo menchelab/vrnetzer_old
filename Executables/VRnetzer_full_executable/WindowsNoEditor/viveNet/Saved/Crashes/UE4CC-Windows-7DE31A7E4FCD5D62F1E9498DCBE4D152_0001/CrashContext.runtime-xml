@@ -1,0 +1,1346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+<RuntimeProperties>
+<CrashVersion>3</CrashVersion>
+<ExecutionGuid>48B5F8F746B35D7265C16EA135B41BB0</ExecutionGuid>
+<CrashGUID>UE4CC-Windows-7DE31A7E4FCD5D62F1E9498DCBE4D152_0001</CrashGUID>
+<ProcessId>3608</ProcessId>
+<IsInternalBuild>false</IsInternalBuild>
+<IsPerforceBuild>false</IsPerforceBuild>
+<IsSourceDistribution>false</IsSourceDistribution>
+<IsEnsure>false</IsEnsure>
+<IsAssert>true</IsAssert>
+<CrashType>Assert</CrashType>
+<SecondsSinceStart>89</SecondsSinceStart>
+<GameName>UE4-viveNet</GameName>
+<ExecutableName>viveNet</ExecutableName>
+<BuildConfiguration>Development</BuildConfiguration>
+<GameSessionID></GameSessionID>
+<Symbols>**UE4*Release-4.23-CL-9631420-Win64-Development</Symbols>
+<PlatformName>WindowsNoEditor</PlatformName>
+<PlatformNameIni>Windows</PlatformNameIni>
+<EngineMode>Game</EngineMode>
+<EngineModeEx>Unset</EngineModeEx>
+<DeploymentName></DeploymentName>
+<EngineVersion>4.23.1-9631420+++UE4+Release-4.23</EngineVersion>
+<CommandLine> viveNet</CommandLine>
+<LanguageLCID>1033</LanguageLCID>
+<AppDefaultLocale>de-AT</AppDefaultLocale>
+<BuildVersion>++UE4+Release-4.23-CL-9631420</BuildVersion>
+<IsUE4Release>false</IsUE4Release>
+<UserName></UserName>
+<BaseDir>E:/vrNetBuild/desktop_TEST/vr_new/WindowsNoEditor/viveNet/Binaries/Win64/</BaseDir>
+<RootDir>E:/vrNetBuild/desktop_TEST/vr_new/WindowsNoEditor/</RootDir>
+<MachineId>143A5AE34FD1E56A919D69BB3B6B6BDC</MachineId>
+<LoginId>143a5ae34fd1e56a919d69bb3b6b6bdc</LoginId>
+<EpicAccountId>2e28025076a34b3da9cf27f9fe923bfc</EpicAccountId>
+<NumMinidumpFramesToIgnore>2</NumMinidumpFramesToIgnore>
+<CallStack></CallStack>
+<PCallStack>
+viveNet   0x00000000bf2a0000 + ecb07c  
+viveNet   0x00000000bf2a0000 + ce215a  
+viveNet   0x00000000bf2a0000 + c3d5b7  
+viveNet   0x00000000bf2a0000 + c3d4a8  
+viveNet   0x00000000bf2a0000 + 19d980d 
+viveNet   0x00000000bf2a0000 + 19bc5ad 
+viveNet   0x00000000bf2a0000 + 19c771b 
+viveNet   0x00000000bf2a0000 + 266b2c0 
+viveNet   0x00000000bf2a0000 + 266ae40 
+viveNet   0x00000000bf2a0000 + 266be98 
+viveNet   0x00000000bf2a0000 + 26642dd 
+viveNet   0x00000000bf2a0000 + 2ab1e06 
+viveNet   0x00000000bf2a0000 + 2ab8934 
+viveNet   0x00000000bf2a0000 + ade584  
+viveNet   0x00000000bf2a0000 + ade8e3  
+viveNet   0x00000000bf2a0000 + 2717554 
+viveNet   0x00000000bf2a0000 + 271c24f 
+viveNet   0x00000000bf2a0000 + ee8e4f  
+viveNet   0x00000000bf2a0000 + ededb1  
+KERNEL32  0x0000000064700000 + 17974   
+ntdll     0x00000000652f0000 + 6a271   
+</PCallStack>
+<PCallStackHash>AB1F88FC671A24FA7CEB2A1DA47BC20E53797DDF</PCallStackHash>
+<SourceContext></SourceContext>
+<UserDescription></UserDescription>
+<UserActivityHint></UserActivityHint>
+<ErrorMessage>Assertion failed:  [File:D:/Build/++UE4/Sync/Engine/Source/Runtime/Windows/D3D11RHI/Private/D3D11Util.cpp] [Line: 249] 
+Result failed 
+ at D:/Build/++UE4/Sync/Engine/Source/Runtime/Windows/D3D11RHI/Private/D3D11Viewport.cpp:368 
+ with error DXGI_ERROR_INVALID_CALL
+</ErrorMessage>
+<CrashDumpMode>0</CrashDumpMode>
+<CrashReporterMessage></CrashReporterMessage>
+<Misc.NumberOfCores>8</Misc.NumberOfCores>
+<Misc.NumberOfCoresIncludingHyperthreads>16</Misc.NumberOfCoresIncludingHyperthreads>
+<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+<Misc.CPUVendor>GenuineIntel</Misc.CPUVendor>
+<Misc.CPUBrand>Intel(R) Xeon(R) CPU E5-1660 v3 @ 3.00GHz</Misc.CPUBrand>
+<Misc.PrimaryGPUBrand>NVIDIA TITAN X (Pascal)</Misc.PrimaryGPUBrand>
+<Misc.OSVersionMajor>Windows 10 (Release 1809)</Misc.OSVersionMajor>
+<Misc.OSVersionMinor></Misc.OSVersionMinor>
+<GameStateName></GameStateName>
+<MemoryStats.TotalPhysical>34278248448</MemoryStats.TotalPhysical>
+<MemoryStats.TotalVirtual>140737488224256</MemoryStats.TotalVirtual>
+<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+<MemoryStats.TotalPhysicalGB>32</MemoryStats.TotalPhysicalGB>
+<MemoryStats.AvailablePhysical>27036758016</MemoryStats.AvailablePhysical>
+<MemoryStats.AvailableVirtual>140730566475776</MemoryStats.AvailableVirtual>
+<MemoryStats.UsedPhysical>301015040</MemoryStats.UsedPhysical>
+<MemoryStats.PeakUsedPhysical>1054318592</MemoryStats.PeakUsedPhysical>
+<MemoryStats.UsedVirtual>1692950528</MemoryStats.UsedVirtual>
+<MemoryStats.PeakUsedVirtual>1935433728</MemoryStats.PeakUsedVirtual>
+<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+<Threads><Thread><CallStack>ntdll       0x00000000652f0000 + 9f7e4   
+KERNELBASE  0x0000000062210000 + 383d3   
+viveNet     0x00000000bf2a0000 + eecdbb  
+viveNet     0x00000000bf2a0000 + 26f4e7e 
+viveNet     0x00000000bf2a0000 + 27338e3 
+viveNet     0x00000000bf2a0000 + 41c53d  
+viveNet     0x00000000bf2a0000 + 42c44c  
+viveNet     0x00000000bf2a0000 + 42c50a  
+viveNet     0x00000000bf2a0000 + 43d300  
+viveNet     0x00000000bf2a0000 + 4acc702 
+KERNEL32    0x0000000064700000 + 17974   
+ntdll       0x00000000652f0000 + 6a271   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>1568</ThreadID>
+<ThreadName>GameThread</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000652f0000 + 9f7e4   
+KERNELBASE  0x0000000062210000 + 383d3   
+viveNet     0x00000000bf2a0000 + eecdbb  
+viveNet     0x00000000bf2a0000 + add665  
+viveNet     0x00000000bf2a0000 + ade95d  
+viveNet     0x00000000bf2a0000 + ae5a6b  
+viveNet     0x00000000bf2a0000 + ee8e4f  
+viveNet     0x00000000bf2a0000 + ededb1  
+KERNEL32    0x0000000064700000 + 17974   
+ntdll       0x00000000652f0000 + 6a271   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>4812</ThreadID>
+<ThreadName>TaskGraphThreadNP 0</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000652f0000 + 9f7e4   
+KERNELBASE  0x0000000062210000 + 383d3   
+viveNet     0x00000000bf2a0000 + eecdbb  
+viveNet     0x00000000bf2a0000 + add665  
+viveNet     0x00000000bf2a0000 + ade95d  
+viveNet     0x00000000bf2a0000 + ae5a6b  
+viveNet     0x00000000bf2a0000 + ee8e4f  
+viveNet     0x00000000bf2a0000 + ededb1  
+KERNEL32    0x0000000064700000 + 17974   
+ntdll       0x00000000652f0000 + 6a271   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>12724</ThreadID>
+<ThreadName>TaskGraphThreadNP 1</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000652f0000 + 9f7e4   
+KERNELBASE  0x0000000062210000 + 383d3   
+viveNet     0x00000000bf2a0000 + eecdbb  
+viveNet     0x00000000bf2a0000 + add665  
+viveNet     0x00000000bf2a0000 + ade95d  
+viveNet     0x00000000bf2a0000 + ae5a6b  
+viveNet     0x00000000bf2a0000 + ee8e4f  
+viveNet     0x00000000bf2a0000 + ededb1  
+KERNEL32    0x0000000064700000 + 17974   
+ntdll       0x00000000652f0000 + 6a271   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>1780</ThreadID>
+<ThreadName>TaskGraphThreadNP 2</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000652f0000 + 9f7e4   
+KERNELBASE  0x0000000062210000 + 383d3   
+viveNet     0x00000000bf2a0000 + eecdbb  
+viveNet     0x00000000bf2a0000 + add665  
+viveNet     0x00000000bf2a0000 + ade95d  
+viveNet     0x00000000bf2a0000 + ae5a6b  
+viveNet     0x00000000bf2a0000 + ee8e4f  
+viveNet     0x00000000bf2a0000 + ededb1  
+KERNEL32    0x0000000064700000 + 17974   
+ntdll       0x00000000652f0000 + 6a271   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>4884</ThreadID>
+<ThreadName>TaskGraphThreadNP 3</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000652f0000 + 9f7e4   
+KERNELBASE  0x0000000062210000 + 383d3   
+viveNet     0x00000000bf2a0000 + eecdbb  
+viveNet     0x00000000bf2a0000 + add665  
+viveNet     0x00000000bf2a0000 + ade95d  
+viveNet     0x00000000bf2a0000 + ae5a6b  
+viveNet     0x00000000bf2a0000 + ee8e4f  
+viveNet     0x00000000bf2a0000 + ededb1  
+KERNEL32    0x0000000064700000 + 17974   
+ntdll       0x00000000652f0000 + 6a271   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>9252</ThreadID>
+<ThreadName>TaskGraphThreadNP 4</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000652f0000 + 9f7e4   
+KERNELBASE  0x0000000062210000 + 383d3   
+viveNet     0x00000000bf2a0000 + eecdbb  
+viveNet     0x00000000bf2a0000 + add665  
+viveNet     0x00000000bf2a0000 + ade95d  
+viveNet     0x00000000bf2a0000 + ae5a6b  
+viveNet     0x00000000bf2a0000 + ee8e4f  
+viveNet     0x00000000bf2a0000 + ededb1  
+KERNEL32    0x0000000064700000 + 17974   
+ntdll       0x00000000652f0000 + 6a271   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>14220</ThreadID>
+<ThreadName>TaskGraphThreadNP 5</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000652f0000 + 9f7e4   
+KERNELBASE  0x0000000062210000 + 383d3   
+viveNet     0x00000000bf2a0000 + eecdbb  
+viveNet     0x00000000bf2a0000 + add665  
+viveNet     0x00000000bf2a0000 + ade95d  
+viveNet     0x00000000bf2a0000 + ae5a6b  
+viveNet     0x00000000bf2a0000 + ee8e4f  
+viveNet     0x00000000bf2a0000 + ededb1  
+KERNEL32    0x0000000064700000 + 17974   
+ntdll       0x00000000652f0000 + 6a271   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>17708</ThreadID>
+<ThreadName>TaskGraphThreadNP 6</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000652f0000 + 9f7e4   
+KERNELBASE  0x0000000062210000 + 383d3   
+viveNet     0x00000000bf2a0000 + eecdbb  
+viveNet     0x00000000bf2a0000 + add665  
+viveNet     0x00000000bf2a0000 + ade95d  
+viveNet     0x00000000bf2a0000 + ae5a6b  
+viveNet     0x00000000bf2a0000 + ee8e4f  
+viveNet     0x00000000bf2a0000 + ededb1  
+KERNEL32    0x0000000064700000 + 17974   
+ntdll       0x00000000652f0000 + 6a271   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>19444</ThreadID>
+<ThreadName>TaskGraphThreadNP 7</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000652f0000 + 9f7e4   
+KERNELBASE  0x0000000062210000 + 383d3   
+viveNet     0x00000000bf2a0000 + eecdbb  
+viveNet     0x00000000bf2a0000 + add665  
+viveNet     0x00000000bf2a0000 + ade95d  
+viveNet     0x00000000bf2a0000 + ae5a6b  
+viveNet     0x00000000bf2a0000 + ee8e4f  
+viveNet     0x00000000bf2a0000 + ededb1  
+KERNEL32    0x0000000064700000 + 17974   
+ntdll       0x00000000652f0000 + 6a271   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>20176</ThreadID>
+<ThreadName>TaskGraphThreadNP 8</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000652f0000 + 9f7e4   
+KERNELBASE  0x0000000062210000 + 383d3   
+viveNet     0x00000000bf2a0000 + eecdbb  
+viveNet     0x00000000bf2a0000 + add665  
+viveNet     0x00000000bf2a0000 + ade95d  
+viveNet     0x00000000bf2a0000 + ae5a6b  
+viveNet     0x00000000bf2a0000 + ee8e4f  
+viveNet     0x00000000bf2a0000 + ededb1  
+KERNEL32    0x0000000064700000 + 17974   
+ntdll       0x00000000652f0000 + 6a271   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>13120</ThreadID>
+<ThreadName>TaskGraphThreadNP 9</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000652f0000 + 9f7e4   
+KERNELBASE  0x0000000062210000 + 383d3   
+viveNet     0x00000000bf2a0000 + eecdbb  
+viveNet     0x00000000bf2a0000 + add665  
+viveNet     0x00000000bf2a0000 + ade95d  
+viveNet     0x00000000bf2a0000 + ae5a6b  
+viveNet     0x00000000bf2a0000 + ee8e4f  
+viveNet     0x00000000bf2a0000 + ededb1  
+KERNEL32    0x0000000064700000 + 17974   
+ntdll       0x00000000652f0000 + 6a271   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>13968</ThreadID>
+<ThreadName>TaskGraphThreadNP 10</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000652f0000 + 9f7e4   
+KERNELBASE  0x0000000062210000 + 383d3   
+viveNet     0x00000000bf2a0000 + eecdbb  
+viveNet     0x00000000bf2a0000 + add665  
+viveNet     0x00000000bf2a0000 + ade95d  
+viveNet     0x00000000bf2a0000 + ae5a6b  
+viveNet     0x00000000bf2a0000 + ee8e4f  
+viveNet     0x00000000bf2a0000 + ededb1  
+KERNEL32    0x0000000064700000 + 17974   
+ntdll       0x00000000652f0000 + 6a271   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>18304</ThreadID>
+<ThreadName>TaskGraphThreadNP 11</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000652f0000 + 9f7e4   
+KERNELBASE  0x0000000062210000 + 383d3   
+viveNet     0x00000000bf2a0000 + eecdbb  
+viveNet     0x00000000bf2a0000 + add665  
+viveNet     0x00000000bf2a0000 + ade95d  
+viveNet     0x00000000bf2a0000 + ae5a6b  
+viveNet     0x00000000bf2a0000 + ee8e4f  
+viveNet     0x00000000bf2a0000 + ededb1  
+KERNEL32    0x0000000064700000 + 17974   
+ntdll       0x00000000652f0000 + 6a271   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>18616</ThreadID>
+<ThreadName>TaskGraphThreadNP 12</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000652f0000 + 9f7e4   
+KERNELBASE  0x0000000062210000 + 383d3   
+viveNet     0x00000000bf2a0000 + eecdbb  
+viveNet     0x00000000bf2a0000 + add665  
+viveNet     0x00000000bf2a0000 + ade95d  
+viveNet     0x00000000bf2a0000 + ae5a6b  
+viveNet     0x00000000bf2a0000 + ee8e4f  
+viveNet     0x00000000bf2a0000 + ededb1  
+KERNEL32    0x0000000064700000 + 17974   
+ntdll       0x00000000652f0000 + 6a271   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>9352</ThreadID>
+<ThreadName>TaskGraphThreadNP 13</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000652f0000 + 9f7e4   
+KERNELBASE  0x0000000062210000 + 383d3   
+viveNet     0x00000000bf2a0000 + eecdbb  
+viveNet     0x00000000bf2a0000 + add665  
+viveNet     0x00000000bf2a0000 + ade95d  
+viveNet     0x00000000bf2a0000 + ae5a6b  
+viveNet     0x00000000bf2a0000 + ee8e4f  
+viveNet     0x00000000bf2a0000 + ededb1  
+KERNEL32    0x0000000064700000 + 17974   
+ntdll       0x00000000652f0000 + 6a271   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>14660</ThreadID>
+<ThreadName>TaskGraphThreadHP 14</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000652f0000 + 9f7e4   
+KERNELBASE  0x0000000062210000 + 383d3   
+viveNet     0x00000000bf2a0000 + eecdbb  
+viveNet     0x00000000bf2a0000 + add665  
+viveNet     0x00000000bf2a0000 + ade95d  
+viveNet     0x00000000bf2a0000 + ae5a6b  
+viveNet     0x00000000bf2a0000 + ee8e4f  
+viveNet     0x00000000bf2a0000 + ededb1  
+KERNEL32    0x0000000064700000 + 17974   
+ntdll       0x00000000652f0000 + 6a271   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>2976</ThreadID>
+<ThreadName>TaskGraphThreadHP 15</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000652f0000 + 9f7e4   
+KERNELBASE  0x0000000062210000 + 383d3   
+viveNet     0x00000000bf2a0000 + eecdbb  
+viveNet     0x00000000bf2a0000 + add665  
+viveNet     0x00000000bf2a0000 + ade95d  
+viveNet     0x00000000bf2a0000 + ae5a6b  
+viveNet     0x00000000bf2a0000 + ee8e4f  
+viveNet     0x00000000bf2a0000 + ededb1  
+KERNEL32    0x0000000064700000 + 17974   
+ntdll       0x00000000652f0000 + 6a271   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>20040</ThreadID>
+<ThreadName>TaskGraphThreadHP 16</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000652f0000 + 9f7e4   
+KERNELBASE  0x0000000062210000 + 383d3   
+viveNet     0x00000000bf2a0000 + eecdbb  
+viveNet     0x00000000bf2a0000 + add665  
+viveNet     0x00000000bf2a0000 + ade95d  
+viveNet     0x00000000bf2a0000 + ae5a6b  
+viveNet     0x00000000bf2a0000 + ee8e4f  
+viveNet     0x00000000bf2a0000 + ededb1  
+KERNEL32    0x0000000064700000 + 17974   
+ntdll       0x00000000652f0000 + 6a271   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>13556</ThreadID>
+<ThreadName>TaskGraphThreadHP 17</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000652f0000 + 9f7e4   
+KERNELBASE  0x0000000062210000 + 383d3   
+viveNet     0x00000000bf2a0000 + eecdbb  
+viveNet     0x00000000bf2a0000 + add665  
+viveNet     0x00000000bf2a0000 + ade95d  
+viveNet     0x00000000bf2a0000 + ae5a6b  
+viveNet     0x00000000bf2a0000 + ee8e4f  
+viveNet     0x00000000bf2a0000 + ededb1  
+KERNEL32    0x0000000064700000 + 17974   
+ntdll       0x00000000652f0000 + 6a271   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>19876</ThreadID>
+<ThreadName>TaskGraphThreadHP 18</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000652f0000 + 9f7e4   
+KERNELBASE  0x0000000062210000 + 383d3   
+viveNet     0x00000000bf2a0000 + eecdbb  
+viveNet     0x00000000bf2a0000 + add665  
+viveNet     0x00000000bf2a0000 + ade95d  
+viveNet     0x00000000bf2a0000 + ae5a6b  
+viveNet     0x00000000bf2a0000 + ee8e4f  
+viveNet     0x00000000bf2a0000 + ededb1  
+KERNEL32    0x0000000064700000 + 17974   
+ntdll       0x00000000652f0000 + 6a271   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>20368</ThreadID>
+<ThreadName>TaskGraphThreadHP 19</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000652f0000 + 9f7e4   
+KERNELBASE  0x0000000062210000 + 383d3   
+viveNet     0x00000000bf2a0000 + eecdbb  
+viveNet     0x00000000bf2a0000 + add665  
+viveNet     0x00000000bf2a0000 + ade95d  
+viveNet     0x00000000bf2a0000 + ae5a6b  
+viveNet     0x00000000bf2a0000 + ee8e4f  
+viveNet     0x00000000bf2a0000 + ededb1  
+KERNEL32    0x0000000064700000 + 17974   
+ntdll       0x00000000652f0000 + 6a271   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>17792</ThreadID>
+<ThreadName>TaskGraphThreadHP 20</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000652f0000 + 9f7e4   
+KERNELBASE  0x0000000062210000 + 383d3   
+viveNet     0x00000000bf2a0000 + eecdbb  
+viveNet     0x00000000bf2a0000 + add665  
+viveNet     0x00000000bf2a0000 + ade95d  
+viveNet     0x00000000bf2a0000 + ae5a6b  
+viveNet     0x00000000bf2a0000 + ee8e4f  
+viveNet     0x00000000bf2a0000 + ededb1  
+KERNEL32    0x0000000064700000 + 17974   
+ntdll       0x00000000652f0000 + 6a271   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>14372</ThreadID>
+<ThreadName>TaskGraphThreadHP 21</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000652f0000 + 9f7e4   
+KERNELBASE  0x0000000062210000 + 383d3   
+viveNet     0x00000000bf2a0000 + eecdbb  
+viveNet     0x00000000bf2a0000 + add665  
+viveNet     0x00000000bf2a0000 + ade95d  
+viveNet     0x00000000bf2a0000 + ae5a6b  
+viveNet     0x00000000bf2a0000 + ee8e4f  
+viveNet     0x00000000bf2a0000 + ededb1  
+KERNEL32    0x0000000064700000 + 17974   
+ntdll       0x00000000652f0000 + 6a271   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>4228</ThreadID>
+<ThreadName>TaskGraphThreadHP 22</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000652f0000 + 9f7e4   
+KERNELBASE  0x0000000062210000 + 383d3   
+viveNet     0x00000000bf2a0000 + eecdbb  
+viveNet     0x00000000bf2a0000 + add665  
+viveNet     0x00000000bf2a0000 + ade95d  
+viveNet     0x00000000bf2a0000 + ae5a6b  
+viveNet     0x00000000bf2a0000 + ee8e4f  
+viveNet     0x00000000bf2a0000 + ededb1  
+KERNEL32    0x0000000064700000 + 17974   
+ntdll       0x00000000652f0000 + 6a271   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>18596</ThreadID>
+<ThreadName>TaskGraphThreadHP 23</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000652f0000 + 9f7e4   
+KERNELBASE  0x0000000062210000 + 383d3   
+viveNet     0x00000000bf2a0000 + eecdbb  
+viveNet     0x00000000bf2a0000 + add665  
+viveNet     0x00000000bf2a0000 + ade95d  
+viveNet     0x00000000bf2a0000 + ae5a6b  
+viveNet     0x00000000bf2a0000 + ee8e4f  
+viveNet     0x00000000bf2a0000 + ededb1  
+KERNEL32    0x0000000064700000 + 17974   
+ntdll       0x00000000652f0000 + 6a271   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>12600</ThreadID>
+<ThreadName>TaskGraphThreadHP 24</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000652f0000 + 9f7e4   
+KERNELBASE  0x0000000062210000 + 383d3   
+viveNet     0x00000000bf2a0000 + eecdbb  
+viveNet     0x00000000bf2a0000 + add665  
+viveNet     0x00000000bf2a0000 + ade95d  
+viveNet     0x00000000bf2a0000 + ae5a6b  
+viveNet     0x00000000bf2a0000 + ee8e4f  
+viveNet     0x00000000bf2a0000 + ededb1  
+KERNEL32    0x0000000064700000 + 17974   
+ntdll       0x00000000652f0000 + 6a271   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>19052</ThreadID>
+<ThreadName>TaskGraphThreadHP 25</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000652f0000 + 9f7e4   
+KERNELBASE  0x0000000062210000 + 383d3   
+viveNet     0x00000000bf2a0000 + eecdbb  
+viveNet     0x00000000bf2a0000 + add665  
+viveNet     0x00000000bf2a0000 + ade95d  
+viveNet     0x00000000bf2a0000 + ae5a6b  
+viveNet     0x00000000bf2a0000 + ee8e4f  
+viveNet     0x00000000bf2a0000 + ededb1  
+KERNEL32    0x0000000064700000 + 17974   
+ntdll       0x00000000652f0000 + 6a271   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>19304</ThreadID>
+<ThreadName>TaskGraphThreadHP 26</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000652f0000 + 9f7e4   
+KERNELBASE  0x0000000062210000 + 383d3   
+viveNet     0x00000000bf2a0000 + eecdbb  
+viveNet     0x00000000bf2a0000 + add665  
+viveNet     0x00000000bf2a0000 + ade95d  
+viveNet     0x00000000bf2a0000 + ae5a6b  
+viveNet     0x00000000bf2a0000 + ee8e4f  
+viveNet     0x00000000bf2a0000 + ededb1  
+KERNEL32    0x0000000064700000 + 17974   
+ntdll       0x00000000652f0000 + 6a271   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>6504</ThreadID>
+<ThreadName>TaskGraphThreadHP 27</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000652f0000 + 9f7e4   
+KERNELBASE  0x0000000062210000 + 383d3   
+viveNet     0x00000000bf2a0000 + eecdbb  
+viveNet     0x00000000bf2a0000 + add665  
+viveNet     0x00000000bf2a0000 + ade95d  
+viveNet     0x00000000bf2a0000 + ae5a6b  
+viveNet     0x00000000bf2a0000 + ee8e4f  
+viveNet     0x00000000bf2a0000 + ededb1  
+KERNEL32    0x0000000064700000 + 17974   
+ntdll       0x00000000652f0000 + 6a271   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>19236</ThreadID>
+<ThreadName>TaskGraphThreadBP 28</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000652f0000 + 9f7e4   
+KERNELBASE  0x0000000062210000 + 383d3   
+viveNet     0x00000000bf2a0000 + eecdbb  
+viveNet     0x00000000bf2a0000 + add665  
+viveNet     0x00000000bf2a0000 + ade95d  
+viveNet     0x00000000bf2a0000 + ae5a6b  
+viveNet     0x00000000bf2a0000 + ee8e4f  
+viveNet     0x00000000bf2a0000 + ededb1  
+KERNEL32    0x0000000064700000 + 17974   
+ntdll       0x00000000652f0000 + 6a271   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>19744</ThreadID>
+<ThreadName>TaskGraphThreadBP 29</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000652f0000 + 9f7e4   
+KERNELBASE  0x0000000062210000 + 383d3   
+viveNet     0x00000000bf2a0000 + eecdbb  
+viveNet     0x00000000bf2a0000 + add665  
+viveNet     0x00000000bf2a0000 + ade95d  
+viveNet     0x00000000bf2a0000 + ae5a6b  
+viveNet     0x00000000bf2a0000 + ee8e4f  
+viveNet     0x00000000bf2a0000 + ededb1  
+KERNEL32    0x0000000064700000 + 17974   
+ntdll       0x00000000652f0000 + 6a271   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>14316</ThreadID>
+<ThreadName>TaskGraphThreadBP 30</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000652f0000 + 9f7e4   
+KERNELBASE  0x0000000062210000 + 383d3   
+viveNet     0x00000000bf2a0000 + eecdbb  
+viveNet     0x00000000bf2a0000 + add665  
+viveNet     0x00000000bf2a0000 + ade95d  
+viveNet     0x00000000bf2a0000 + ae5a6b  
+viveNet     0x00000000bf2a0000 + ee8e4f  
+viveNet     0x00000000bf2a0000 + ededb1  
+KERNEL32    0x0000000064700000 + 17974   
+ntdll       0x00000000652f0000 + 6a271   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>19964</ThreadID>
+<ThreadName>TaskGraphThreadBP 31</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000652f0000 + 9f7e4   
+KERNELBASE  0x0000000062210000 + 383d3   
+viveNet     0x00000000bf2a0000 + eecdbb  
+viveNet     0x00000000bf2a0000 + add665  
+viveNet     0x00000000bf2a0000 + ade95d  
+viveNet     0x00000000bf2a0000 + ae5a6b  
+viveNet     0x00000000bf2a0000 + ee8e4f  
+viveNet     0x00000000bf2a0000 + ededb1  
+KERNEL32    0x0000000064700000 + 17974   
+ntdll       0x00000000652f0000 + 6a271   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>15912</ThreadID>
+<ThreadName>TaskGraphThreadBP 32</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000652f0000 + 9f7e4   
+KERNELBASE  0x0000000062210000 + 383d3   
+viveNet     0x00000000bf2a0000 + eecdbb  
+viveNet     0x00000000bf2a0000 + add665  
+viveNet     0x00000000bf2a0000 + ade95d  
+viveNet     0x00000000bf2a0000 + ae5a6b  
+viveNet     0x00000000bf2a0000 + ee8e4f  
+viveNet     0x00000000bf2a0000 + ededb1  
+KERNEL32    0x0000000064700000 + 17974   
+ntdll       0x00000000652f0000 + 6a271   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>17740</ThreadID>
+<ThreadName>TaskGraphThreadBP 33</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000652f0000 + 9f7e4   
+KERNELBASE  0x0000000062210000 + 383d3   
+viveNet     0x00000000bf2a0000 + eecdbb  
+viveNet     0x00000000bf2a0000 + add665  
+viveNet     0x00000000bf2a0000 + ade95d  
+viveNet     0x00000000bf2a0000 + ae5a6b  
+viveNet     0x00000000bf2a0000 + ee8e4f  
+viveNet     0x00000000bf2a0000 + ededb1  
+KERNEL32    0x0000000064700000 + 17974   
+ntdll       0x00000000652f0000 + 6a271   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>19228</ThreadID>
+<ThreadName>TaskGraphThreadBP 34</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000652f0000 + 9f7e4   
+KERNELBASE  0x0000000062210000 + 383d3   
+viveNet     0x00000000bf2a0000 + eecdbb  
+viveNet     0x00000000bf2a0000 + add665  
+viveNet     0x00000000bf2a0000 + ade95d  
+viveNet     0x00000000bf2a0000 + ae5a6b  
+viveNet     0x00000000bf2a0000 + ee8e4f  
+viveNet     0x00000000bf2a0000 + ededb1  
+KERNEL32    0x0000000064700000 + 17974   
+ntdll       0x00000000652f0000 + 6a271   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>19524</ThreadID>
+<ThreadName>TaskGraphThreadBP 35</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000652f0000 + 9f7e4   
+KERNELBASE  0x0000000062210000 + 383d3   
+viveNet     0x00000000bf2a0000 + eecdbb  
+viveNet     0x00000000bf2a0000 + add665  
+viveNet     0x00000000bf2a0000 + ade95d  
+viveNet     0x00000000bf2a0000 + ae5a6b  
+viveNet     0x00000000bf2a0000 + ee8e4f  
+viveNet     0x00000000bf2a0000 + ededb1  
+KERNEL32    0x0000000064700000 + 17974   
+ntdll       0x00000000652f0000 + 6a271   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>19624</ThreadID>
+<ThreadName>TaskGraphThreadBP 36</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000652f0000 + 9f7e4   
+KERNELBASE  0x0000000062210000 + 383d3   
+viveNet     0x00000000bf2a0000 + eecdbb  
+viveNet     0x00000000bf2a0000 + add665  
+viveNet     0x00000000bf2a0000 + ade95d  
+viveNet     0x00000000bf2a0000 + ae5a6b  
+viveNet     0x00000000bf2a0000 + ee8e4f  
+viveNet     0x00000000bf2a0000 + ededb1  
+KERNEL32    0x0000000064700000 + 17974   
+ntdll       0x00000000652f0000 + 6a271   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>7552</ThreadID>
+<ThreadName>TaskGraphThreadBP 37</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000652f0000 + 9f7e4   
+KERNELBASE  0x0000000062210000 + 383d3   
+viveNet     0x00000000bf2a0000 + eecdbb  
+viveNet     0x00000000bf2a0000 + add665  
+viveNet     0x00000000bf2a0000 + ade95d  
+viveNet     0x00000000bf2a0000 + ae5a6b  
+viveNet     0x00000000bf2a0000 + ee8e4f  
+viveNet     0x00000000bf2a0000 + ededb1  
+KERNEL32    0x0000000064700000 + 17974   
+ntdll       0x00000000652f0000 + 6a271   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>7368</ThreadID>
+<ThreadName>TaskGraphThreadBP 38</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000652f0000 + 9f7e4   
+KERNELBASE  0x0000000062210000 + 383d3   
+viveNet     0x00000000bf2a0000 + eecdbb  
+viveNet     0x00000000bf2a0000 + add665  
+viveNet     0x00000000bf2a0000 + ade95d  
+viveNet     0x00000000bf2a0000 + ae5a6b  
+viveNet     0x00000000bf2a0000 + ee8e4f  
+viveNet     0x00000000bf2a0000 + ededb1  
+KERNEL32    0x0000000064700000 + 17974   
+ntdll       0x00000000652f0000 + 6a271   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>19600</ThreadID>
+<ThreadName>TaskGraphThreadBP 39</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000652f0000 + 9f7e4   
+KERNELBASE  0x0000000062210000 + 383d3   
+viveNet     0x00000000bf2a0000 + eecdbb  
+viveNet     0x00000000bf2a0000 + add665  
+viveNet     0x00000000bf2a0000 + ade95d  
+viveNet     0x00000000bf2a0000 + ae5a6b  
+viveNet     0x00000000bf2a0000 + ee8e4f  
+viveNet     0x00000000bf2a0000 + ededb1  
+KERNEL32    0x0000000064700000 + 17974   
+ntdll       0x00000000652f0000 + 6a271   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>20432</ThreadID>
+<ThreadName>TaskGraphThreadBP 40</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000652f0000 + 9f7e4   
+KERNELBASE  0x0000000062210000 + 383d3   
+viveNet     0x00000000bf2a0000 + eecdbb  
+viveNet     0x00000000bf2a0000 + add665  
+viveNet     0x00000000bf2a0000 + ade95d  
+viveNet     0x00000000bf2a0000 + ae5a6b  
+viveNet     0x00000000bf2a0000 + ee8e4f  
+viveNet     0x00000000bf2a0000 + ededb1  
+KERNEL32    0x0000000064700000 + 17974   
+ntdll       0x00000000652f0000 + 6a271   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>19588</ThreadID>
+<ThreadName>TaskGraphThreadBP 41</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000652f0000 + 9f7e4   
+KERNELBASE  0x0000000062210000 + 383d3   
+viveNet     0x00000000bf2a0000 + eecdbb  
+viveNet     0x00000000bf2a0000 + ade2dd  
+viveNet     0x00000000bf2a0000 + ade8e3  
+viveNet     0x00000000bf2a0000 + dd4d1d  
+viveNet     0x00000000bf2a0000 + ee8e4f  
+viveNet     0x00000000bf2a0000 + ededb1  
+KERNEL32    0x0000000064700000 + 17974   
+ntdll       0x00000000652f0000 + 6a271   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>19152</ThreadID>
+<ThreadName>StatsThread</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000652f0000 + 9f7e4   
+KERNELBASE  0x0000000062210000 + 383d3   
+viveNet     0x00000000bf2a0000 + eecdbb  
+viveNet     0x00000000bf2a0000 + bd5858  
+viveNet     0x00000000bf2a0000 + ee8e4f  
+viveNet     0x00000000bf2a0000 + ededb1  
+KERNEL32    0x0000000064700000 + 17974   
+ntdll       0x00000000652f0000 + 6a271   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>10984</ThreadID>
+<ThreadName>PoolThread 0</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000652f0000 + 9f7e4   
+KERNELBASE  0x0000000062210000 + 383d3   
+viveNet     0x00000000bf2a0000 + eecdbb  
+viveNet     0x00000000bf2a0000 + bd5858  
+viveNet     0x00000000bf2a0000 + ee8e4f  
+viveNet     0x00000000bf2a0000 + ededb1  
+KERNEL32    0x0000000064700000 + 17974   
+ntdll       0x00000000652f0000 + 6a271   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>12620</ThreadID>
+<ThreadName>PoolThread 1</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000652f0000 + 9f7e4   
+KERNELBASE  0x0000000062210000 + 383d3   
+viveNet     0x00000000bf2a0000 + eecdbb  
+viveNet     0x00000000bf2a0000 + bd5858  
+viveNet     0x00000000bf2a0000 + ee8e4f  
+viveNet     0x00000000bf2a0000 + ededb1  
+KERNEL32    0x0000000064700000 + 17974   
+ntdll       0x00000000652f0000 + 6a271   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>14240</ThreadID>
+<ThreadName>PoolThread 2</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000652f0000 + 9f7e4   
+KERNELBASE  0x0000000062210000 + 383d3   
+viveNet     0x00000000bf2a0000 + eecdbb  
+viveNet     0x00000000bf2a0000 + bd5858  
+viveNet     0x00000000bf2a0000 + ee8e4f  
+viveNet     0x00000000bf2a0000 + ededb1  
+KERNEL32    0x0000000064700000 + 17974   
+ntdll       0x00000000652f0000 + 6a271   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>13984</ThreadID>
+<ThreadName>PoolThread 3</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000652f0000 + 9f7e4   
+KERNELBASE  0x0000000062210000 + 383d3   
+viveNet     0x00000000bf2a0000 + eecdbb  
+viveNet     0x00000000bf2a0000 + bd5858  
+viveNet     0x00000000bf2a0000 + ee8e4f  
+viveNet     0x00000000bf2a0000 + ededb1  
+KERNEL32    0x0000000064700000 + 17974   
+ntdll       0x00000000652f0000 + 6a271   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>10008</ThreadID>
+<ThreadName>PoolThread 4</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000652f0000 + 9f7e4   
+KERNELBASE  0x0000000062210000 + 383d3   
+viveNet     0x00000000bf2a0000 + eecdbb  
+viveNet     0x00000000bf2a0000 + bd5858  
+viveNet     0x00000000bf2a0000 + ee8e4f  
+viveNet     0x00000000bf2a0000 + ededb1  
+KERNEL32    0x0000000064700000 + 17974   
+ntdll       0x00000000652f0000 + 6a271   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>11096</ThreadID>
+<ThreadName>PoolThread 5</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000652f0000 + 9f7e4   
+KERNELBASE  0x0000000062210000 + 383d3   
+viveNet     0x00000000bf2a0000 + eecdbb  
+viveNet     0x00000000bf2a0000 + bd5858  
+viveNet     0x00000000bf2a0000 + ee8e4f  
+viveNet     0x00000000bf2a0000 + ededb1  
+KERNEL32    0x0000000064700000 + 17974   
+ntdll       0x00000000652f0000 + 6a271   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>16300</ThreadID>
+<ThreadName>PoolThread 6</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000652f0000 + 9f7e4   
+KERNELBASE  0x0000000062210000 + 383d3   
+viveNet     0x00000000bf2a0000 + eecdbb  
+viveNet     0x00000000bf2a0000 + bd5858  
+viveNet     0x00000000bf2a0000 + ee8e4f  
+viveNet     0x00000000bf2a0000 + ededb1  
+KERNEL32    0x0000000064700000 + 17974   
+ntdll       0x00000000652f0000 + 6a271   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>16616</ThreadID>
+<ThreadName>PoolThread 7</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000652f0000 + 9f7e4   
+KERNELBASE  0x0000000062210000 + 383d3   
+viveNet     0x00000000bf2a0000 + eecdbb  
+viveNet     0x00000000bf2a0000 + bd5858  
+viveNet     0x00000000bf2a0000 + ee8e4f  
+viveNet     0x00000000bf2a0000 + ededb1  
+KERNEL32    0x0000000064700000 + 17974   
+ntdll       0x00000000652f0000 + 6a271   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>11428</ThreadID>
+<ThreadName>PoolThread 8</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000652f0000 + 9f7e4   
+KERNELBASE  0x0000000062210000 + 383d3   
+viveNet     0x00000000bf2a0000 + eecdbb  
+viveNet     0x00000000bf2a0000 + bd5858  
+viveNet     0x00000000bf2a0000 + ee8e4f  
+viveNet     0x00000000bf2a0000 + ededb1  
+KERNEL32    0x0000000064700000 + 17974   
+ntdll       0x00000000652f0000 + 6a271   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>4232</ThreadID>
+<ThreadName>PoolThread 9</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000652f0000 + 9f7e4   
+KERNELBASE  0x0000000062210000 + 383d3   
+viveNet     0x00000000bf2a0000 + eecdbb  
+viveNet     0x00000000bf2a0000 + bd5858  
+viveNet     0x00000000bf2a0000 + ee8e4f  
+viveNet     0x00000000bf2a0000 + ededb1  
+KERNEL32    0x0000000064700000 + 17974   
+ntdll       0x00000000652f0000 + 6a271   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>16252</ThreadID>
+<ThreadName>PoolThread 10</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000652f0000 + 9f7e4   
+KERNELBASE  0x0000000062210000 + 383d3   
+viveNet     0x00000000bf2a0000 + eecdbb  
+viveNet     0x00000000bf2a0000 + bd5858  
+viveNet     0x00000000bf2a0000 + ee8e4f  
+viveNet     0x00000000bf2a0000 + ededb1  
+KERNEL32    0x0000000064700000 + 17974   
+ntdll       0x00000000652f0000 + 6a271   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>1100</ThreadID>
+<ThreadName>PoolThread 11</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000652f0000 + 9f7e4   
+KERNELBASE  0x0000000062210000 + 383d3   
+viveNet     0x00000000bf2a0000 + eecdbb  
+viveNet     0x00000000bf2a0000 + bd5858  
+viveNet     0x00000000bf2a0000 + ee8e4f  
+viveNet     0x00000000bf2a0000 + ededb1  
+KERNEL32    0x0000000064700000 + 17974   
+ntdll       0x00000000652f0000 + 6a271   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>16268</ThreadID>
+<ThreadName>PoolThread 12</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000652f0000 + 9f7e4   
+KERNELBASE  0x0000000062210000 + 383d3   
+viveNet     0x00000000bf2a0000 + eecdbb  
+viveNet     0x00000000bf2a0000 + bd5858  
+viveNet     0x00000000bf2a0000 + ee8e4f  
+viveNet     0x00000000bf2a0000 + ededb1  
+KERNEL32    0x0000000064700000 + 17974   
+ntdll       0x00000000652f0000 + 6a271   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>16264</ThreadID>
+<ThreadName>PoolThread 13</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000652f0000 + 9f7e4   
+KERNELBASE  0x0000000062210000 + 383d3   
+viveNet     0x00000000bf2a0000 + eecdbb  
+viveNet     0x00000000bf2a0000 + bd5858  
+viveNet     0x00000000bf2a0000 + ee8e4f  
+viveNet     0x00000000bf2a0000 + ededb1  
+KERNEL32    0x0000000064700000 + 17974   
+ntdll       0x00000000652f0000 + 6a271   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>11652</ThreadID>
+<ThreadName>PoolThread 14</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000652f0000 + 9f7e4   
+KERNELBASE  0x0000000062210000 + 383d3   
+viveNet     0x00000000bf2a0000 + eecdbb  
+viveNet     0x00000000bf2a0000 + bd5858  
+viveNet     0x00000000bf2a0000 + ee8e4f  
+viveNet     0x00000000bf2a0000 + ededb1  
+KERNEL32    0x0000000064700000 + 17974   
+ntdll       0x00000000652f0000 + 6a271   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>16256</ThreadID>
+<ThreadName>PoolThread 15</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000652f0000 + 9fde4   
+KERNELBASE  0x0000000062210000 + 396c1   
+viveNet     0x00000000bf2a0000 + cf1bce  
+viveNet     0x00000000bf2a0000 + ee8e4f  
+viveNet     0x00000000bf2a0000 + ededb1  
+KERNEL32    0x0000000064700000 + 17974   
+ntdll       0x00000000652f0000 + 6a271   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>7136</ThreadID>
+<ThreadName>FAsyncWriter_viveNet</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000652f0000 + 9fde4   
+KERNELBASE  0x0000000062210000 + 396c1   
+viveNet     0x00000000bf2a0000 + 232a38d 
+viveNet     0x00000000bf2a0000 + ee8e4f  
+viveNet     0x00000000bf2a0000 + ededb1  
+KERNEL32    0x0000000064700000 + 17974   
+ntdll       0x00000000652f0000 + 6a271   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>4324</ThreadID>
+<ThreadName>HttpManagerThread</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000652f0000 + 9f7e4   
+KERNELBASE  0x0000000062210000 + 383d3   
+viveNet     0x00000000bf2a0000 + eecdbb  
+viveNet     0x00000000bf2a0000 + 58b376  
+viveNet     0x00000000bf2a0000 + ee8e4f  
+viveNet     0x00000000bf2a0000 + ededb1  
+KERNEL32    0x0000000064700000 + 17974   
+ntdll       0x00000000652f0000 + 6a271   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>10652</ThreadID>
+<ThreadName>OnlineAsyncTaskThreadNull DefaultInstance(1)</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000652f0000 + 9f7e4   
+KERNELBASE  0x0000000062210000 + 383d3   
+viveNet     0x00000000bf2a0000 + eecdbb  
+viveNet     0x00000000bf2a0000 + 2e04a9c 
+viveNet     0x00000000bf2a0000 + ee8e4f  
+viveNet     0x00000000bf2a0000 + ededb1  
+KERNEL32    0x0000000064700000 + 17974   
+ntdll       0x00000000652f0000 + 6a271   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>11412</ThreadID>
+<ThreadName>FMediaTicker</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000652f0000 + 9f7e4   
+KERNELBASE  0x0000000062210000 + 383d3   
+viveNet     0x00000000bf2a0000 + eecdbb  
+viveNet     0x00000000bf2a0000 + bd5858  
+viveNet     0x00000000bf2a0000 + ee8e4f  
+viveNet     0x00000000bf2a0000 + ededb1  
+KERNEL32    0x0000000064700000 + 17974   
+ntdll       0x00000000652f0000 + 6a271   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>16228</ThreadID>
+<ThreadName>PoolThread 16</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000652f0000 + 9f7e4   
+KERNELBASE  0x0000000062210000 + 383d3   
+viveNet     0x00000000bf2a0000 + eecdbb  
+viveNet     0x00000000bf2a0000 + bd5858  
+viveNet     0x00000000bf2a0000 + ee8e4f  
+viveNet     0x00000000bf2a0000 + ededb1  
+KERNEL32    0x0000000064700000 + 17974   
+ntdll       0x00000000652f0000 + 6a271   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>6652</ThreadID>
+<ThreadName>PoolThread 17</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000652f0000 + 9f7e4   
+KERNELBASE  0x0000000062210000 + 383d3   
+viveNet     0x00000000bf2a0000 + eecdbb  
+viveNet     0x00000000bf2a0000 + bd5858  
+viveNet     0x00000000bf2a0000 + ee8e4f  
+viveNet     0x00000000bf2a0000 + ededb1  
+KERNEL32    0x0000000064700000 + 17974   
+ntdll       0x00000000652f0000 + 6a271   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>5060</ThreadID>
+<ThreadName>PoolThread 18</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000652f0000 + 9f7e4   
+KERNELBASE  0x0000000062210000 + 383d3   
+viveNet     0x00000000bf2a0000 + eecdbb  
+viveNet     0x00000000bf2a0000 + bd5858  
+viveNet     0x00000000bf2a0000 + ee8e4f  
+viveNet     0x00000000bf2a0000 + ededb1  
+KERNEL32    0x0000000064700000 + 17974   
+ntdll       0x00000000652f0000 + 6a271   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>19528</ThreadID>
+<ThreadName>PoolThread 19</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll         0x00000000652f0000 + 9f7e4   
+KERNELBASE    0x0000000062210000 + 383d3   
+viveNet       0x00000000bf2a0000 + ec881a  
+viveNet       0x00000000bf2a0000 + 4afb232 
+VCRUNTIME140  0x0000000049db0000 + b8d0    
+ntdll         0x00000000652f0000 + a477f   
+ntdll         0x00000000652f0000 + 4bef    
+ntdll         0x00000000652f0000 + 89e6    
+KERNELBASE    0x0000000062210000 + 39129   
+viveNet       0x00000000bf2a0000 + ec8797  
+viveNet       0x00000000bf2a0000 + ecb07c  
+viveNet       0x00000000bf2a0000 + ce215a  
+viveNet       0x00000000bf2a0000 + c3d5b7  
+viveNet       0x00000000bf2a0000 + c3d4a8  
+viveNet       0x00000000bf2a0000 + 19d980d 
+viveNet       0x00000000bf2a0000 + 19bc5ad 
+viveNet       0x00000000bf2a0000 + 19c771b 
+viveNet       0x00000000bf2a0000 + 266b2c0 
+viveNet       0x00000000bf2a0000 + 266ae40 
+viveNet       0x00000000bf2a0000 + 266be98 
+viveNet       0x00000000bf2a0000 + 26642dd 
+viveNet       0x00000000bf2a0000 + 2ab1e06 
+viveNet       0x00000000bf2a0000 + 2ab8934 
+viveNet       0x00000000bf2a0000 + ade584  
+viveNet       0x00000000bf2a0000 + ade8e3  
+viveNet       0x00000000bf2a0000 + 2717554 
+viveNet       0x00000000bf2a0000 + 271c24f 
+viveNet       0x00000000bf2a0000 + ee8e4f  
+viveNet       0x00000000bf2a0000 + ededb1  
+KERNEL32      0x0000000064700000 + 17974   
+ntdll         0x00000000652f0000 + 6a271   
+</CallStack>
+<IsCrashed>true</IsCrashed>
+<Registers></Registers>
+<ThreadID>18836</ThreadID>
+<ThreadName>RenderThread 3</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000652f0000 + 9fde4   
+KERNELBASE  0x0000000062210000 + 396c1   
+viveNet     0x00000000bf2a0000 + eea168  
+viveNet     0x00000000bf2a0000 + 271c387 
+viveNet     0x00000000bf2a0000 + ee8e4f  
+viveNet     0x00000000bf2a0000 + ededb1  
+KERNEL32    0x0000000064700000 + 17974   
+ntdll       0x00000000652f0000 + 6a271   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>17784</ThreadID>
+<ThreadName>RTHeartBeat 3</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000652f0000 + 9f7e4   
+KERNELBASE  0x0000000062210000 + 383d3   
+viveNet     0x00000000bf2a0000 + eecdbb  
+viveNet     0x00000000bf2a0000 + 16fb8aa 
+viveNet     0x00000000bf2a0000 + ee8e4f  
+viveNet     0x00000000bf2a0000 + ededb1  
+KERNEL32    0x0000000064700000 + 17974   
+ntdll       0x00000000652f0000 + 6a271   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>10120</ThreadID>
+<ThreadName>FMessageBus.Router</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000652f0000 + 9f7e4   
+KERNELBASE  0x0000000062210000 + 383d3   
+viveNet     0x00000000bf2a0000 + eecdbb  
+viveNet     0x00000000bf2a0000 + 434b033 
+viveNet     0x00000000bf2a0000 + ee8e4f  
+viveNet     0x00000000bf2a0000 + ededb1  
+KERNEL32    0x0000000064700000 + 17974   
+ntdll       0x00000000652f0000 + 6a271   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>20212</ThreadID>
+<ThreadName>FFileTransferRunnable</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000652f0000 + 9f7e4   
+KERNELBASE  0x0000000062210000 + 383d3   
+viveNet     0x00000000bf2a0000 + eecdbb  
+viveNet     0x00000000bf2a0000 + bd5858  
+viveNet     0x00000000bf2a0000 + ee8e4f  
+viveNet     0x00000000bf2a0000 + ededb1  
+KERNEL32    0x0000000064700000 + 17974   
+ntdll       0x00000000652f0000 + 6a271   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>17684</ThreadID>
+<ThreadName>PoolThread 20</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000652f0000 + 9f7e4   
+KERNELBASE  0x0000000062210000 + 383d3   
+viveNet     0x00000000bf2a0000 + eecdbb  
+viveNet     0x00000000bf2a0000 + bd5858  
+viveNet     0x00000000bf2a0000 + ee8e4f  
+viveNet     0x00000000bf2a0000 + ededb1  
+KERNEL32    0x0000000064700000 + 17974   
+ntdll       0x00000000652f0000 + 6a271   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>8408</ThreadID>
+<ThreadName>PoolThread 21</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000652f0000 + 9f7e4   
+KERNELBASE  0x0000000062210000 + 383d3   
+viveNet     0x00000000bf2a0000 + eecdbb  
+viveNet     0x00000000bf2a0000 + bd5858  
+viveNet     0x00000000bf2a0000 + ee8e4f  
+viveNet     0x00000000bf2a0000 + ededb1  
+KERNEL32    0x0000000064700000 + 17974   
+ntdll       0x00000000652f0000 + 6a271   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>19692</ThreadID>
+<ThreadName>PoolThread 22</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000652f0000 + 9f7e4   
+KERNELBASE  0x0000000062210000 + 383d3   
+viveNet     0x00000000bf2a0000 + eecdbb  
+viveNet     0x00000000bf2a0000 + bd5858  
+viveNet     0x00000000bf2a0000 + ee8e4f  
+viveNet     0x00000000bf2a0000 + ededb1  
+KERNEL32    0x0000000064700000 + 17974   
+ntdll       0x00000000652f0000 + 6a271   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>17816</ThreadID>
+<ThreadName>PoolThread 23</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000652f0000 + 9f7e4   
+KERNELBASE  0x0000000062210000 + 383d3   
+viveNet     0x00000000bf2a0000 + eecdbb  
+viveNet     0x00000000bf2a0000 + bd5858  
+viveNet     0x00000000bf2a0000 + ee8e4f  
+viveNet     0x00000000bf2a0000 + ededb1  
+KERNEL32    0x0000000064700000 + 17974   
+ntdll       0x00000000652f0000 + 6a271   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>1340</ThreadID>
+<ThreadName>PoolThread 24</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000652f0000 + 9f7e4   
+KERNELBASE  0x0000000062210000 + 383d3   
+viveNet     0x00000000bf2a0000 + eecdbb  
+viveNet     0x00000000bf2a0000 + bd5858  
+viveNet     0x00000000bf2a0000 + ee8e4f  
+viveNet     0x00000000bf2a0000 + ededb1  
+KERNEL32    0x0000000064700000 + 17974   
+ntdll       0x00000000652f0000 + 6a271   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>20364</ThreadID>
+<ThreadName>PoolThread 25</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000652f0000 + 9fde4   
+KERNELBASE  0x0000000062210000 + 396c1   
+viveNet     0x00000000bf2a0000 + eea168  
+viveNet     0x00000000bf2a0000 + 3ba7e51 
+viveNet     0x00000000bf2a0000 + ee8e4f  
+viveNet     0x00000000bf2a0000 + ededb1  
+KERNEL32    0x0000000064700000 + 17974   
+ntdll       0x00000000652f0000 + 6a271   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>3820</ThreadID>
+<ThreadName>ScreenSaverInhibitor</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000652f0000 + 9f7e4   
+KERNELBASE  0x0000000062210000 + 383d3   
+viveNet     0x00000000bf2a0000 + eecdbb  
+viveNet     0x00000000bf2a0000 + ade2dd  
+viveNet     0x00000000bf2a0000 + ade8e3  
+viveNet     0x00000000bf2a0000 + 30597ed 
+viveNet     0x00000000bf2a0000 + ee8e4f  
+viveNet     0x00000000bf2a0000 + ededb1  
+KERNEL32    0x0000000064700000 + 17974   
+ntdll       0x00000000652f0000 + 6a271   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>19844</ThreadID>
+<ThreadName>AudioThread</ThreadName>
+</Thread>
+</Threads>
+</RuntimeProperties>
+<PlatformProperties>
+<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+<PlatformCallbackResult>0</PlatformCallbackResult>
+<IsRunningOnBattery>false</IsRunningOnBattery>
+</PlatformProperties>
+<EngineData>
+<RHI.RHIName>D3D11</RHI.RHIName>
+<RHI.AdapterName>NVIDIA TITAN X (Pascal)</RHI.AdapterName>
+<RHI.UserDriverVersion>436.15</RHI.UserDriverVersion>
+<RHI.InternalDriverVersion>26.21.14.3615</RHI.InternalDriverVersion>
+<RHI.DriverDate>8-24-2019</RHI.DriverDate>
+<RHI.FeatureLevel>SM5</RHI.FeatureLevel>
+<Platform.AppHasFocus>false</Platform.AppHasFocus>
+</EngineData>
+<GameData>
+</GameData>
+</FGenericCrashContext>
